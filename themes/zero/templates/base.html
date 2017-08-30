@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    {% block head %}
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+    
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+    {% endif %}
+    {% if FEED_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_ATOM and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_RSS and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+    {% endif %}
+    {% if TAG_FEED_ATOM and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+    {% endif %}
+    {% if TAG_FEED_RSS and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+
+    {% endif %}
+    {% endblock head %}
+</head>
+
+<body>
+    <header id="banner" class="body">
+        <h1><a href="{{ SITEURL }}/">Low&larr;Tech Magazine</a></h1>
+        <span class="subtitle">
+            {{ SITESUBTITLE }} | 
+        </span>
+        <nav id="menu"><ul>
+            {% for title, link in MENUITEMS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+            {% endfor %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for p in pages %}
+                <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a> | </li>
+              {% endfor %}
+            {% endif %}
+            {% if DISPLAY_CATEGORIES_ON_MENU %}
+                {% for cat, null in categories %}
+                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> | </li>
+                {% endfor %}
+            {% endif %}
+            
+            <li><a href="http://www.notechmagazine.com/">No&larr;Tech Magazine</a> |
+            </ul>
+        </nav><!-- /#menu -->
+
+        {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
+            <span class="social">
+                <a href="http://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish" type="application/rss+xml" rel="alternate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>rss</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+               <a href="https://www.facebook.com/Lowtechmagazine/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>facebook</title><path d="M57.16,16.42H50.87c-4.93,0-5.85,2.36-5.85,5.77v7.57H56.76L55.2,41.61H45V72H32.77V41.61H22.56V29.76H32.77V21C32.77,10.9,39,5.37,48,5.37a78.35,78.35,0,0,1,9.13.48Z"/></svg></a>
+               <a href="https://twitter.com/lowtechmagazine"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>twitter</title><path d="M65.05,29.23c0,.56,0,1.12,0,1.68,0,17.1-13,36.8-36.8,36.8A36.54,36.54,0,0,1,8.44,61.91a26.68,26.68,0,0,0,3.12.16,25.9,25.9,0,0,0,16.06-5.53,13,13,0,0,1-12.09-9,16.28,16.28,0,0,0,2.44.2,13.67,13.67,0,0,0,3.4-.44A12.93,12.93,0,0,1,11,34.64v-.16a13,13,0,0,0,5.85,1.64,13,13,0,0,1-4-17.3A36.76,36.76,0,0,0,39.51,32.36a14.58,14.58,0,0,1-.32-3,12.95,12.95,0,0,1,22.38-8.85,25.45,25.45,0,0,0,8.21-3.12,12.9,12.9,0,0,1-5.69,7.13,25.93,25.93,0,0,0,7.45-2A27.79,27.79,0,0,1,65.05,29.23Z"/></svg></a>
+               &nbsp;
+               <a href="mailto:kris[at]lowtechmagazine[dot]com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>email</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+           </span><!-- /.social -->
+        {% endif %} 
+        <a href="{{ SITEURL }}/donate" class="button support" title="Donate">Support Low-tech Magazine</a><!-- /donate button --> 
+    </header><!-- /#banner -->
+
+    {% block content %}
+    {% endblock %}
+    <footer id="content-info" class="body">
+            {{ SITENAME }}: 
+            <span class="subtitle">
+            {{ SITESUBTITLE }}
+            </span>
+            <p>&copy; Kris De Decker | kris [at] lowtechmagazine [dot] com | 
+               <a href="{{ SITEURL }}/copyright/">Copyright &amp; Translations</a> | <a href="{{ SITEURL }}/privacy/">Privacy Policy</a> |
+                 <span class="social">
+                    <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>rss</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
+                    <a href="https://www.facebook.com/Lowtechmagazine/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>facebook</title><path d="M57.16,16.42H50.87c-4.93,0-5.85,2.36-5.85,5.77v7.57H56.76L55.2,41.61H45V72H32.77V41.61H22.56V29.76H32.77V21C32.77,10.9,39,5.37,48,5.37a78.35,78.35,0,0,1,9.13.48Z"/></svg></a>
+                    <a href="https://twitter.com/lowtechmagazine"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>twitter</title><path d="M65.05,29.23c0,.56,0,1.12,0,1.68,0,17.1-13,36.8-36.8,36.8A36.54,36.54,0,0,1,8.44,61.91a26.68,26.68,0,0,0,3.12.16,25.9,25.9,0,0,0,16.06-5.53,13,13,0,0,1-12.09-9,16.28,16.28,0,0,0,2.44.2,13.67,13.67,0,0,0,3.4-.44A12.93,12.93,0,0,1,11,34.64v-.16a13,13,0,0,0,5.85,1.64,13,13,0,0,1-4-17.3A36.76,36.76,0,0,0,39.51,32.36a14.58,14.58,0,0,1-.32-3,12.95,12.95,0,0,1,22.38-8.85,25.45,25.45,0,0,0,8.21-3.12,12.9,12.9,0,0,1-5.69,7.13,25.93,25.93,0,0,0,7.45-2A27.79,27.79,0,0,1,65.05,29.23Z"/></svg></a>
+                    &nbsp;
+                    <a href="mailto:kris[at]lowtechmagazine[dot]com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>email</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
+               </span><!-- /.social -->
+            </p><!-- /#about -->
+
+            <a href="{{ SITEURL }}/donate" class="button support" title="Donate">Support Low-tech Magazine</a><!-- /donate button --> 
+
+           
+    </footer><!-- /#contentinfo -->
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></script>
+<script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
+</body>
+</html>

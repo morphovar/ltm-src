@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content-home">
+{% block content_title %}
+
+{% endblock %}
+
+<div id="filters">
+    <div class="filter active desc" id="date">
+    Date
+    </div>
+
+    <div class="filter asc" id="title">
+    Title
+    </div>
+
+    <div class="filter asc" id="cat">
+    Theme
+    </div>
+</div>
+
+<ul id="post-list">
+{% for article in articles_page.object_list %}
+        <li><article class="hentry">
+                <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %Y')}}</time>
+                <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
+                <div class="category {{ article.category[0:3]}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
+        </article></li>
+{% endfor %}
+</ul><!-- /#posts-list -->
+{% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+{% endif %}
+</section><!-- /#content -->
+{% endblock content %}
