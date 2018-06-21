@@ -18,7 +18,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 
-import os, logging,re
+import os, logging
 from pelican import signals
 from bs4 import BeautifulSoup
 logger = logging.getLogger(__name__)
