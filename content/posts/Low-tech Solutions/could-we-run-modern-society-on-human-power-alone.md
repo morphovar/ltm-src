@@ -6,7 +6,7 @@ Tags: Batteries, DIY, Energy consumption, Energy production, Foot powered machin
 Slug: could-we-run-modern-society-on-human-power-alone
 Status: published
 
-![A human powered student room. Golnar Abbasi.]({filename}/images/human-powered-room.png)
+![A human powered student room. Golnar Abbasi.]({filename}images/human-powered-room.png)
 *A human powered student room. Image by Golnar Abbasi.*
 
 Unlike solar and wind energy, human power is always available, no matter
