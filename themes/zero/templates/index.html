@@ -24,7 +24,7 @@
         <li><article class="hentry">
                 <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %Y')}}</time>
                 <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <div class="category {{ article.category[0:3]}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
+                <div class="category {{ article.category}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
         </article></li>
 {% endfor %}
 </ul><!-- /#posts-list -->

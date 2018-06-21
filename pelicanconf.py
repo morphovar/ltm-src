@@ -33,14 +33,14 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ["neighbors"]
+PLUGINS = ["neighbors", "dither"]
 TYPOGRIFY = True
 
 # CATEGORIES
 USE_FOLDER_AS_CATEGORY = True
 DISPLAY_CATEGORIES_ON_MENU = False
 
-# DELETE_OUTPUT_DIRECTORY = True
+#DELETE_OUTPUT_DIRECTORY = True
 LOAD_CONTENT_CACHE = True
 CHECK_MODIFIED_METHOD = 'mtime'
 # WRITE_SELECTED = ['output/theme/','output/2013/12/high-speed-trains-are-killing-the-european-railway-network/']
