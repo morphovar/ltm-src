@@ -1,5 +1,6 @@
 window.onload = function() {
-  /////LIST SORTING
+
+/*LIST SORTING--------------*/
   var listElements = document.querySelectorAll('#post-list li');
   var filters = document.getElementsByClassName('filter');
 
@@ -31,7 +32,7 @@ window.onload = function() {
   }
 
 
-  /////FOOTNOTES
+/*FOOTNOTES--------------*/
   //generate footnote
   var note="";
   var footnotes = document.getElementsByClassName('footnote-ref');
@@ -45,7 +46,7 @@ window.onload = function() {
       footnotes[n].innerHTML += "<span class='ref'>"+ num + ". " + footnote+"</span>";
       footnotes[n].addEventListener('click', showFootnote, false);
   }
-  
+
   function showFootnote(){
       this.classList.toggle('show')
   }
@@ -59,7 +60,61 @@ window.onload = function() {
     refs.style.display = 'none'
   }
 
-  /////EXTERNAL LINKS
+/*SERVER DATA--------------*/
+  var url = "http://roelof.info/~r/api/stats.json" //insert updated URL
+
+  $.getJSON(url, function(data) {
+
+    var stats=[];
+    $.each(data, function(key, val) {
+        stats.push( "<li id='" + key + "'>" + key + ": " + val + "</li>" );
+    });
+
+    $( "<ul/>", {
+        "class": "stats",
+        html: stats.join( "" )
+    }).appendTo( ".data" );
+
+    //battery level background
+    var level = data.bat_capacity;
+    console.log(level);
+    $('#battery').css('height',level);
+
+    //status
+    var status;
+    if (data.ac_used=="yes"){
+      status = "It&rsquo;s dark or cloudy"
+    }else{
+      status = "The sun is shining"
+    }
+    $('#status').html(status);
+
+    //uptime
+    var uptime = data.uptime;
+    $('#uptime').html(uptime);
+
+  });
+
+/*CLOCK--------------*/
+  var time;
+  function calcTime(offset) {
+      d = new Date();
+      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+      localdate = new Date(utc + (3600000*offset));
+      time = localdate.toLocaleString();
+      $('#time').html(time);
+  }
+
+  setInterval(function(){
+    calcTime(2);
+  },1000);
+
+/*FULL-WIDTH IMG--------------*/
+  $('p img').each(function() {
+  		$(this).parent().addClass('image');
+  });
+
+/*EXTERNAL LINKS--------------*/
   function externalLinks() {
     for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
       var b = c[a];
