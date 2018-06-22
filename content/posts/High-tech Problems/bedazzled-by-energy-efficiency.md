@@ -4,8 +4,9 @@ Category: High-tech Problems
 Tags: Energy efficiency, Energy demand
 Slug: bedazzled-by-energy-efficiency
 Summary: To focus on energy efficiency is to make present ways of life non-negotiable. 
+Status: published
 
-![illustration bedazzled by energy efficiency](images/bedazzled-by-energy-efficiency.png)
+![illustration bedazzled by energy efficiency](/images/bedazzled-by-energy-efficiency.png)
 
 To focus on energy efficiency is to make present ways of life non-negotiable. However, transforming present ways of life is key to mitigating climate change and decreasing our dependence on fossil fuels.
 
@@ -81,7 +82,7 @@ Because of the need to compare 'like with like' and establish equivalent of serv
 
 For example, the EU has calculated that energy labels for tumble driers will be able to “save up to 3.3 Twh of electricity by 2020, equivalent to the annual energy consumption of Malta”. [^20]. But how much energy use would be avoided if by 2020 every European would use a clothesline instead of a tumble drier? Don’t ask the EU, because it has not calculated the avoided energy use of clotheslines.
 
-![illustration bedazzled by energy efficiency](images/bedazzled-by-energy-efficiency-2.jpg)
+![illustration bedazzled by energy efficiency](/images/bedazzled-by-energy-efficiency-2.jpg)
 
 Neither do the EU or the IEA measure the energy efficiency and avoided energy of bicycles, [hand powered drills](/2010/12/hand-powered-drilling-tools-and-machines.html), or [thermal underwear](/2011/02/body-insulation-thermal-underwear.html). Nevertheless, if clotheslines would be taken seriously as an alternative, then the projected 3.3 TWh of energy “saved” by more energy efficient tumble driers can no longer be considered “avoided energy”, let alone a fuel. In a similar way, bicycles and clothing undermine the very idea of calculating the “avoided energy” of more energy efficient cars and central heating boilers.
 

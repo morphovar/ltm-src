@@ -4,8 +4,8 @@ Category: Low-tech Solutions
 Tags: Energy demand
 Slug: how-much-energy-do-we-need
 Summary: Researchers have calculated minimum levels of energy use needed to live a decent life, but what about maximum levels?
-
-![azuri technologies](images/azuri-technologies.jpg)
+Status: published
+![azuri technologies](/images/azuri-technologies.jpg)
 
 Because energy fuels both human development and environmental damage, policies that encourage energy demand reduction can run counter to policies for alleviating poverty, and the other way around. Achieving both objectives can only happen if energy use is spread more equally across societies.
 
@@ -20,7 +20,7 @@ If we divide total primary energy use per country by population, we see that the
 
 These figures include not only the energy used directly in households, but also energy used in transportation, manufacturing, power production and other sectors. Such a calculation makes more sense than looking at household energy consumption alone, because people consume much more energy outside their homes, for example through the products that they buy. [^4]
 
-![Average energy use per capita per year 2014 worldwide](images/average-energy-use-per-capita-per-year-2014-worldwide.png)
+![Average energy use per capita per year 2014 worldwide](/images/average-energy-use-per-capita-per-year-2014-worldwide.png)
 
 Such a 'production-based' calculation is not perfect, because countries with high energy use per capita often import a lot of manufactured goods from countries with lower energy use per capita. The energy used in the production of these goods is attributed to the exporting countries – meaning that the energy use per capita in the most ‘developed’ countries is an underestimation.
 
@@ -36,7 +36,7 @@ It’s now widely acknowledged that these 3 billion people in the developing wor
 
 However, while it’s recognised that part of the global population is using not enough energy, there is not the same discussion of people who are using too much energy. [^2] [^10] [^11] Nevertheless, solving the tension between demand reduction and energy poverty can only happen if those who use ‘too much’ reduce their energy use. Bringing the rest of the world up to the living standards and energy use of rich countries – the implicit aim of ‘human development’ – would solve the problem of inequality, but it’s not compatible with the environmental problems we face.
 
-![The Panos Network](images/the-panos-network.jpg)
+![The Panos Network](/images/the-panos-network.jpg)
 Image: [The Panos Network](http://panosnetwork.org/)
 
 Based on the figures given above, if every human on Earth would use as much energy as the average Western European or North American, total world energy use and carbon emissions would be at least two to four times higher than they are today. This is an underestimation, because to achieve the same living standards developing countries first need to build an infrastructure – roads, electricity grids, etcetera – to make this possible, which also requires a lot of energy. [^12]
@@ -49,7 +49,7 @@ How do we define energy decadence? How much is ‘too much’ energy use? To a l
 
 Some researchers have addressed energy decadence in a similar way, calculating a maximum acceptable standard of living. For example, the *Swiss Federal Institute of Technology* proposed the *2,000 watt society*, which implies a worldwide energy use per capita of per 1,500 kgoe per year, while the *Global Commons Institute*’s *Contraction and Convergence* proposal limits energy use to 1,255 kgoe per person per year. [^10][^13][^16] These levels of energy use per capita correspond to a reduction of 20-35% below the world average today.
 
-![average energy use per capita per year including sufficiency scenarios](images/average-energy-use-per-capita-per-year-including-sufficiency-scenarios.png)
+![average energy use per capita per year including sufficiency scenarios](/images/average-energy-use-per-capita-per-year-including-sufficiency-scenarios.png)
 
 Because energy poverty research only investigates ‘floors’ and not ‘ceilings’ of energy use, minimum energy levels are calculated from the bottom-up. Researchers investigate how much energy is required to live a decent life, based on a set of goods and services that are considered essential.
 
@@ -69,7 +69,7 @@ The minimum and maximum levels of energy use mentioned above are meant to be uni
 
 Differences in energy efficiency can also have a significant impact on the “need” for energy. For example, a [traditional three-stone cooking fire](/2014/06/thermal-efficiency-cooking-stoves.html) is less energy efficient than a modern gas cooking stove, meaning that the use of the latter requires less energy to cook a similar meal. It’s not only the appliances that determine how much energy is needed, but also the infrastructure: if electricity production and transmission have relatively poor efficiency, people need more primary energy, even if they use the same amount of electricity at home.
 
-![off-grid-electric](images/off-grid-electric.png)
+![off-grid-electric](/images/off-grid-electric.png)
 Image: [Off-Grid Electric](http://offgrid-electric.com/#home)
 
 To account for all these differences, most researchers approach the diagnosis of energy poverty by focusing on ‘energy services’, not on a particular level of energy use. [^17] People do not demand energy or fuel perse – what they need are the services that energy provides. For example, when it comes to lighting, people do not need a particular amount of energy but an adequate level of light depending on what they are doing.
@@ -88,7 +88,7 @@ Focusing on energy services or basic needs can help to specify maximum levels of
 
 However, the focus on energy services or basic needs also reveals a fundamental problem. If the goods and services necessary for a decent life free from poverty are seen not as universally applicable, but as relative to the prevailing standards and customs of a particular society, it becomes clear that such standards evolve over time as technology and customary ways of life change. [^11] Change over time, especially since the twentieth century, reveals an escalation in conventions and standards that result in increasing energy consumption. The ‘need satisfiers’ have become more and more energy-intensive, which has made meeting basic needs as problematic as fulfilling ‘wants’.
 
-![average energy use per capita historical](images/average-energy-use-per-capita-historical.png)
+![average energy use per capita historical](/images/average-energy-use-per-capita-historical.png)
 
 Energy poverty research in industrial countries shows that the minimum energy level required to meet basic needs is constantly on the rise. [^11][^20][^21] What is sufficient today is not necessarily sufficient tomorrow. For example, several consumer goods which did not exist in the 1980s, such as mobile phones, personal computers, and internet access, were seen as absolute necessities by 40-41% of the UK public in 2012. [^20]
 
@@ -106,7 +106,7 @@ One way to do that is by increasing energy efficiency. In a 1985 paper called <e
 
 In reality, this is not what is happening, because efficiency gains are [continually matched by more energy-intensive ways of life](/2018/01/bedazzled-by-energy-efficiency.html). However, if this trend could be halted or even reversed, advances in energy efficiency would allow us to live increasingly low energy lives. For example, to produce the 300 lumens that *Practical Action* considers the minimum level for lighting, a LED-light requires six times less electricity than an incandescent light bulb.
 
-![chinese family owns little](images/chinese-family.jpg)
+![chinese family owns little](/images/chinese-family.jpg)
 Image: [Huang Qinjun](http://huangqingjun.com/)
 
 More importantly, basic needs can be met with different means, and the relative necessity of some energy services could and should be questioned. This approach can be labeled ‘sufficiency’. Energy services could be reduced (smaller TVs or lighter and slower cars, or less TV watching and car driving) or replaced by less energy-intensive ones (using a bicycle instead of a car, buying more fresh instead of frozen food, playing boardgames instead of watching television).
