@@ -185,7 +185,7 @@ We could follow a similar approach for land-based transportation, in the form of
 
 Running cargo trains on renewable energy is a great use of intermittent wind power because they are usually operated at night, when wind power is often at its best and energy demand is at its lowest. Furthermore, just like cargo ships, cargo trains already have unreliable schedules because they often sit stationary in train-yards for days, waiting to become fully loaded.
 
-![image cardiff docks](/images(/cardiff-docks.jpg)
+![image cardiff docks](/images/cardiff-docks.jpg)
 Cardiff Docks, a painting by Lionel Walden, 1894
 
 Even the speed of the trains could be regulated by the amount of renewable energy that is available, just as the wind speed determines the speed of a sailing ship. A similar approach could also work with other electrical transportation systems, such as [trolleytrucks](/2009/07/trolleytrucks-trolleybuses-cargotrams.html), [trolleyboats](/2009/12/trolley-canal-boats.html) or [aerial ropeways](/2011/01/aerial-ropeways-automatic-cargo-transport.html).
