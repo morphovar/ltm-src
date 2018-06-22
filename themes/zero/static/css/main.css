@@ -29,7 +29,7 @@ a{
 	text-decoration: none;
 }
 a:hover{
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 /*
@@ -57,6 +57,30 @@ main {
 	left: 0;
 	padding: 1rem;
 	width: 100vw;
+}
+/*
+CATEGORY COLORS
+*/
+.index #battery{
+	background: #f5f5f5;
+}
+.low #battery{
+	background: #eff2f9;
+}
+.low img{
+	background: #0000ff;
+}
+.hig #battery{
+	background: #cc0f01;
+}
+.hig img{
+	background: #d81e1e;
+}
+.obs #battery{
+	background: #edffec;
+}
+.obs img{
+	background: #469446;
 }
 
 /*
@@ -128,8 +152,12 @@ INDEX LIST
 #post-list li{
 	clear: both;
 	padding: .2rem 0;
-	border-top: 1px solid;
 	overflow: auto;
+	border: 1px solid transparent;
+	border-width: 1px 0px;
+}
+#post-list li:hover{
+	border-color: #000;
 }
 #post-list time, #post-list .entry-title, #post-list .category{
 	float: left;
@@ -222,6 +250,7 @@ blockquote{
 
 img {
 	width: 100%;
+	mix-blend-mode: multiply;
 }
 
 /*

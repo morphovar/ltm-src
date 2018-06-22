@@ -8,8 +8,11 @@
   {% for tag in article.tags %}
     <meta name="tags" content="{{tag}}" />
   {% endfor %}
-
 {% endblock %}
+
+{% block body_class %}
+<body class = "{{article.category|lower|truncate(3,True, '')}}">
+{% endblock body_class %}
 
 {% block content %}
 <section id="content" class="article">
