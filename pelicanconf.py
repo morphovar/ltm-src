@@ -43,8 +43,6 @@ DISPLAY_CATEGORIES_ON_MENU = False
 #DELETE_OUTPUT_DIRECTORY = True
 LOAD_CONTENT_CACHE = True
 CHECK_MODIFIED_METHOD = 'mtime'
-# WRITE_SELECTED = ['output/theme/','output/2013/12/high-speed-trains-are-killing-the-european-railway-network/']
-
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
