@@ -20,7 +20,7 @@ DEFAULT_METADATA = {
     'status': 'draft',
 }
 FORMATTED_FIELDS = ['editor','translator']
-
+STATIC_PATHS= ['api','images']
 # URLS
 ARTICLE_URL = '{date:%Y}/{date:%m}/{slug}/'
 ARTICLE_SAVE_AS = '{date:%Y}/{date:%m}/{slug}/index.html'

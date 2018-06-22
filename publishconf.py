@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://lowtechmag.github.io/'
-RELATIVE_URLS = True 
+SITEURL = 'https://solar.vvvvvvaria.org'
+RELATIVE_URLS = False 
 #change to False in production
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

@@ -12,10 +12,10 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=localhost
-SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
+SSH_HOST=solar.vvvvvvaria.org
+SSH_PORT=9292
+SSH_USER=lowtec
+SSH_TARGET_DIR=/var/www/html/
 
 S3_BUCKET=my_s3_bucket
 
