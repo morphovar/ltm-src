@@ -75,9 +75,23 @@ window.onload = function() {
         html: stats.join( "" )
     }).appendTo( ".data" );
 
+    //battery level background
     var level = data.bat_capacity;
     console.log(level);
     $('#battery').css('height',level);
+
+    //status
+    var status;
+    if (data.ac_used=="yes"){
+      status = "It&rsquo;s dark or cloudy"
+    }else{
+      status = "The sun is shining"
+    }
+    $('#status').html(status);
+
+    //uptime
+    var uptime = data.uptime;
+    $('#uptime').html(uptime);
 
   });
 
