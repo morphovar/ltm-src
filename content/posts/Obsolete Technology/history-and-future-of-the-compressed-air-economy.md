@@ -42,7 +42,7 @@ While pumped hydropower storage has a charge/discharge efficiency of 70-85%, and
 
 The low energy conversion efficiency is mainly due to the fact that air increases in temperature when being compressed to high pressures (both CAES plants operate at 50-70 bar, which is 10 to 20 times the air pressure in a bicycle tyre). Because the energy density of air decreases with rising temperature, both CAES plants remove the heat prior to storage and dump it into the atmosphere. This implies a significant source of energy loss. [^7] [^8]
 
-![Hiscox straight line air compressor](/images/straight-line-air-compressor)
+![Hiscox straight line air compressor](/images/hiscox-straight-line-air-compressor.jpg)
 
 Furthermore, when air is decompressed from a high pressure, the temperature decreases to such an extent that the water vapour in the air can freeze, thereby damaging the valves and the expander of the storage system. To prevent this, and to increase power output, both CAES plants heat the air in combusters using natural gas fuel prior to expansion. Obviously, this further decreases the energy efficiency of the overall process, rendering the present CAES systems entirely dependent on fossil fuels for their operation. [^1] [^7] [^9]
 
