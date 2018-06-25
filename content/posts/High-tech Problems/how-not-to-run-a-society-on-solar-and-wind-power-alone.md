@@ -2,7 +2,7 @@ Title: How (Not) to Run a Modern Society on Solar and Wind Power Alone
 Date: 2017-9-13
 Category: High-Tech Problems
 Tags: Renewable Energy, Wind Energy, Solar Energy, Energy Storage, Power transmission
-Slug: how-to-run-modern-society-on-solar-and-wind-power-alone
+Slug: how-to-run-modern-society-on-solar-and-wind-powe
 Summary: Matching supply to demand at all times makes renewable power production a complex, slow, expensive and unsustainable undertaking.
 Status: published
 
