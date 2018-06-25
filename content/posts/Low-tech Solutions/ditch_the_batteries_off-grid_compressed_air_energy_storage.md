@@ -6,7 +6,7 @@ Slug: ditch-the-batteries-off-the-grid-compressed-air-energy-storage
 Summary: Compressed air energy storage is the sustainable and resilient alternative to chemical batteries, with much longer life expectancy, lower life cycle costs, technical simplicity, and low maintenance.
 Status: published
 
-![DIY compressed air energy storage](/images/DIY-compressed-air-energy-storage.png)
+![DIY compressed air energy storage](/images/DIY-compressed-air-energy-storage.png){class='image'}
 
 Going off-grid? Think twice before you invest in a battery system. Compressed air energy storage is the sustainable and resilient alternative to batteries, with much longer life expectancy, lower life cycle costs, technical simplicity, and low maintenance. Designing a compressed air energy storage system that combines high efficiency with small storage size is not self-explanatory, but a growing number of researchers show that it can be done.
 
