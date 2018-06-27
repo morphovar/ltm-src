@@ -33,7 +33,7 @@ PAGE_SAVE_AS = '{slug}/index.html'
 
 # PLUGINS
 PLUGIN_PATHS = ['pelican-plugins/']
-PLUGINS = ["neighbors", "dither"]
+PLUGINS = ["neighbors", "dither", "representative_image"]
 TYPOGRIFY = True
 
 # CATEGORIES

@@ -116,7 +116,7 @@ def dither(pelican):
                         img_dithered = transparent_image
          
                 img_dithered.save(of)
-    logging.debug(calculate_savings(in_path,out_path))
+    #logging.debug(calculate_savings(in_path,out_path))
 
 def parse_for_images(instance):
     #based on better_figures_and_images plugin by @dflock, @phrawzty,@if1live,@jar1karp,@dhalperi,@aqw,@adworacz
