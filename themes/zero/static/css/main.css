@@ -56,7 +56,7 @@ main {
 	top: 0;
 	left: 0;
 	padding: 1rem;
-	width: 100vw;
+	width:99vw;
 }
 /*
 CATEGORY COLORS
@@ -68,19 +68,19 @@ CATEGORY COLORS
 	background: #eff2f9;
 }
 .low img{
-	background: #0000ff;
+	background: midnightblue;
 }
 .hig #battery{
 	background: #cc0f01;
 }
 .hig img{
-	background: #d81e1e;
+	background: crimson;
 }
 .obs #battery{
 	background: #edffec;
 }
 .obs img{
-	background: #469446;
+	background: seagreen;
 }
 
 /*

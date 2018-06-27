@@ -61,7 +61,7 @@ window.onload = function() {
   }
 
 /*SERVER DATA--------------*/
-  var url = "http://roelof.info/~r/api/stats.json" //insert updated URL
+  var url = "https://solar.vvvvvvaria.org/api/stats.json" //insert updated URL
 
   $.getJSON(url, function(data) {
 
@@ -82,7 +82,7 @@ window.onload = function() {
 
     //status
     var status;
-    if (data.ac_used=="yes"){
+    if (data.ac_used=="no"){
       status = "It&rsquo;s dark or cloudy"
     }else{
       status = "The sun is shining"

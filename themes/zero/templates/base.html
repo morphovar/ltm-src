@@ -2,15 +2,17 @@
 <html lang="{{ DEFAULT_LANG }}">
 <head>
     <meta charset="utf-8" />
-    <meta name="robots" content="noindex">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     {% block head %}
+    
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-
+    
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
 
+    {% from 'syndication.html' import syndication with context %}
+    {{ syndication(article) }}
     {% if FEED_ALL_ATOM %}
+    
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
     {% endif %}
     {% if FEED_ALL_RSS %}
@@ -48,7 +50,7 @@
   </div>
   <main>
     <header id="banner" class="body">
-        <h1><a href="{{ SITEURL }}/">Low&larr;Tech Magazine</a></h1>
+	    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         <div class="subtitle">
             <span id="status"></span> |
             <span id="uptime"></span>
