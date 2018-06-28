@@ -109,11 +109,6 @@ window.onload = function() {
     calcTime(2);
   },1000);
 
-/*FULL-WIDTH IMG--------------*/
-  $('p img').each(function() {
-  		$(this).parent().addClass('image');
-  });
-
 /*EXTERNAL LINKS--------------*/
   function externalLinks() {
     for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
