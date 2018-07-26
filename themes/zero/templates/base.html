@@ -38,6 +38,7 @@
 
     {% endif %}
     {% endblock head %}
+
 </head>
 
 {% block body_class %}
@@ -52,8 +53,8 @@
     <header id="banner" class="body">
 	    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         <div class="subtitle">
-            <span id="status"></span> |
-            <span id="uptime"></span>
+            <span id="status">This website runs on a solar powered olimex</span> |
+            <span id="uptime">Which means that sometimes it goes off-line</span>
         </div>
         <nav id="menu"><ul>
             {% for title, link in MENUITEMS %}
@@ -117,5 +118,33 @@ src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></sc
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
+<script>  
+  var url = "{{ SITEURL }}/api/stats.json" //insert updated URL
+  $.getJSON(url, function(data) {
+    var stats=[];
+    $.each(data, function(key, val) {
+        stats.push( "<li id='" + key + "'>" + key + ": " + val + "</li>" );
+    });
+    $( "<ul/>", {
+        "class": "stats",
+        html: stats.join( "" )
+    }).appendTo( ".data" );
+    //battery level background
+    var level = data.bat_capacity;
+    console.log(level);
+    $('#battery').css('height',level);
+    //status
+    var status;
+    if (data.ac_used=="no"){
+      status = "It&rsquo;s dark or cloudy"
+    }else{
+      status = "The sun is shining"
+    }
+    $('#status').html(status);
+    //uptime
+    var uptime = data.uptime;
+    $('#uptime').html(uptime);
+  });
+</script>
 </body>
 </html>

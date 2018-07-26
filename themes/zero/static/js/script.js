@@ -61,53 +61,49 @@ window.onload = function() {
   }
 
 /*SERVER DATA--------------*/
-  var url = "https://solar.vvvvvvaria.org/api/stats.json" //insert updated URL
+  // var url = "https://solar.vvvvvvaria.org/api/stats.json" //insert updated URL
 
-  $.getJSON(url, function(data) {
+  // $.getJSON(url, function(data) {
 
-    var stats=[];
-    $.each(data, function(key, val) {
-        stats.push( "<li id='" + key + "'>" + key + ": " + val + "</li>" );
-    });
+  //   var stats=[];
+  //   $.each(data, function(key, val) {
+  //       stats.push( "<li id='" + key + "'>" + key + ": " + val + "</li>" );
+  //   });
+  //   $( "<ul/>", {
+  //       "class": "stats",
+  //       html: stats.join( "" )
+  //   }).appendTo( ".data" );
+  //   //battery level background
+  //   var level = data.bat_capacity;
+  //   console.log(level);
+  //   $('#battery').css('height',level);
+  //   //status
+  //   var status;
+  //   if (data.ac_used=="no"){
+  //     status = "It&rsquo;s dark or cloudy"
+  //   }else{
+  //     status = "The sun is shining"
+  //   }
+  //   $('#status').html(status);
+  //   //uptime
+  //   var uptime = data.uptime;
+  //   $('#uptime').html(uptime);
 
-    $( "<ul/>", {
-        "class": "stats",
-        html: stats.join( "" )
-    }).appendTo( ".data" );
+  // });
 
-    //battery level background
-    var level = data.bat_capacity;
-    console.log(level);
-    $('#battery').css('height',level);
+// /*CLOCK--------------*/
+//   var time;
+//   function calcTime(offset) {
+//       d = new Date();
+//       utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+//       localdate = new Date(utc + (3600000*offset));
+//       time = localdate.toLocaleString();
+//       $('#time').html(time);
+//   }
 
-    //status
-    var status;
-    if (data.ac_used=="no"){
-      status = "It&rsquo;s dark or cloudy"
-    }else{
-      status = "The sun is shining"
-    }
-    $('#status').html(status);
-
-    //uptime
-    var uptime = data.uptime;
-    $('#uptime').html(uptime);
-
-  });
-
-/*CLOCK--------------*/
-  var time;
-  function calcTime(offset) {
-      d = new Date();
-      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-      localdate = new Date(utc + (3600000*offset));
-      time = localdate.toLocaleString();
-      $('#time').html(time);
-  }
-
-  setInterval(function(){
-    calcTime(2);
-  },1000);
+//   setInterval(function(){
+//     calcTime(2);
+//   },1000);
 
 /*EXTERNAL LINKS--------------*/
   function externalLinks() {
