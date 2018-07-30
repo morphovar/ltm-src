@@ -7,12 +7,11 @@ Summary: Adjusting energy demand to supply would make switching to renewable ene
 Status: published
 
 ![Stoneferry detail](/images/stoneferry-detail.png)
+Image: Stoneferry (detail), a painting by John Ward of Hull.
 
 Before the Industrial Revolution, people adjusted their energy demand to a variable energy supply. Our global trade and transport system -- which relied on sail boats -- operated only when the wind blew, as did the mills that supplied our food and powered many manufacturing processes.
 
 The same approach could be very useful today, especially when improved by modern technology. In particular, factories and cargo transportation -- such as ships and even trains -- could be operated only when renewable energy is available. Adjusting energy demand to supply would make switching to renewable energy much more realistic than it is today.
-
-Image: Stoneferry (detail), a painting by John Ward of Hull.
 
 ## Renewable Energy in Pre-Industrial Times
 
