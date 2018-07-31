@@ -34,31 +34,7 @@ window.onload = function() {
 
 /*FOOTNOTES--------------*/
   //generate footnote
-  var note="";
-  var footnotes = document.getElementsByClassName('footnote-ref');
-  for (var n = 0; n < footnotes.length; n++) {
-      note = footnotes[n].getAttribute('href');
-      footnotes[n].removeAttribute('href');
-      var key = note.slice(1);
-      var num = note.slice(4);
-      var link = document.getElementById(key);
-      var footnote = link.innerHTML;
-      footnotes[n].innerHTML += "<span class='ref'>"+ num + ". " + footnote+"</span>";
-      footnotes[n].addEventListener('click', showFootnote, false);
-  }
 
-  function showFootnote(){
-      this.classList.toggle('show')
-  }
-
-  //close footnote
-  var refs = document.getElementsByClassName('ref');
-  for (var m=0; m<refs.lenght; m++){
-    refs[m].addEventListener('click',hideFootnote,false);
-  }
-  function hideFootnote(){
-    refs.style.display = 'none'
-  }
 
 /*SERVER DATA--------------*/
   // var url = "https://solar.vvvvvvaria.org/api/stats.json" //insert updated URL
@@ -106,12 +82,13 @@ window.onload = function() {
 //   },1000);
 
 /*EXTERNAL LINKS--------------*/
-  function externalLinks() {
-    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
-      var b = c[a];
-      b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
-    }
-  }
-  externalLinks();
+  // function externalLinks() {
+  //   for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+  //     var b = c[a];
+  //     b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank")
+  //   }
+  // }
+  // externalLinks();
+
 
 }

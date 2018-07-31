@@ -4,15 +4,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% block head %}
-    
+
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
-    
+
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
 
     {% from 'syndication.html' import syndication with context %}
     {{ syndication(article) }}
     {% if FEED_ALL_ATOM %}
-    
+
     <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
     {% endif %}
     {% if FEED_ALL_RSS %}
@@ -118,8 +118,14 @@ src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></sc
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/script.js"></script>
-<script>  
-  var url = "{{ SITEURL }}/api/stats.json" //insert updated URL
+<script>
+
+  var url = "https://solar.lowtechmagazine.com/api/stats.json" //insert updated URL
+
+  // var xhr = new XMLHttpRequest();
+  // xhr.open('GET', url, true);
+  // data = JSON.parse(xhr.response)
+
   $.getJSON(url, function(data) {
     var stats=[];
     $.each(data, function(key, val) {
@@ -145,6 +151,7 @@ src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></sc
     var uptime = data.uptime;
     $('#uptime').html(uptime);
   });
+
 </script>
 </body>
 </html>
