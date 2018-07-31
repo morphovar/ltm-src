@@ -12,7 +12,7 @@ FTP_HOST=localhost
 FTP_USER=anonymous
 FTP_TARGET_DIR=/
 
-SSH_HOST=solar.vvvvvvaria.org
+SSH_HOST=solar.lowtechmagazine.com
 SSH_PORT=9292
 SSH_USER=lowtec
 SSH_TARGET_DIR=/var/www/html/
