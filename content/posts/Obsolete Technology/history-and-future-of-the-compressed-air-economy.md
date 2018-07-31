@@ -7,6 +7,7 @@ Status: published
 Summary: Historical compressed air systems hold the key to the design of a low-tech, low-cost, robust, sustainable and relatively energy efficient energy storage medium.
 
 ![vintage three stage compressor](/images/vintage-three-stage-compressor.png)
+Vintage three-stage compressor
 
 Compressed air energy storage (CAES) is considered to be an important component of a renewable power grid, because it could store surplus power from wind turbines and solar panels on a large scale. However, in its present form, the technology suffers from large energy losses and depends on natural gas to operate.
 
@@ -22,7 +23,7 @@ Today, more than 99% of worldwide electrical storage capacity consists of pumped
 
 ![hiscox 1](/images/hiscox-1.png)
 
-That’s why many people are seeing a promising alternative in Compressed Air Energy Storage (CAES), another form of mechanical energy storage. In these systems, electricity is used to compress air, which is stored in an underground cavern. To make use of the stored energy, the air is decompressed and converted back to electricity. 
+That’s why many people are seeing a promising alternative in Compressed Air Energy Storage (CAES), another form of mechanical energy storage. In these systems, electricity is used to compress air, which is stored in an underground cavern. To make use of the stored energy, the air is decompressed and converted back to electricity.
 
 Although CAES also requires favourable geography to provide the underground air storage caverns, it is believed that there are many more suitable sites worldwide than for pumped hydropower energy storage. [^3]
 
@@ -201,7 +202,7 @@ Thanks to George Fleming.
 
 References & Notes:
 
-[^1]: Chen, Haisheng, et al. "Compressed air energy storage." Energy Storage-Technologies and Applications. InTech, 2013. https://www.intechopen.com/books/energy-storage-technologies-and-applications/compressed-air-energy-storage 
+[^1]: Chen, Haisheng, et al. "Compressed air energy storage." Energy Storage-Technologies and Applications. InTech, 2013. https://www.intechopen.com/books/energy-storage-technologies-and-applications/compressed-air-energy-storage
 
 [^2]: Luo, Xing, et al. "Overview of current development in electrical energy storage technologies and the application potential in power system operation." Applied Energy 137 (2015): 511-536. https://www.sciencedirect.com/science/article/pii/S0306261914010290
 
@@ -209,7 +210,7 @@ References & Notes:
 
 [^4]: Only one of these CAES plants is (partially) used to store surplus wind energy. Both were designed as peaker plants based on economic motives.
 
-[^5]: Kaiser, Friederike. "Steady State Analyse of existing Compressed Air Energy Storage Plants." Power and Energy Student Summit (PESS). Dortmund, Germany (2015). https://www.efzn.de/uploads/tx_wiwimitarbeiter/S02.2.pdf 
+[^5]: Kaiser, Friederike. "Steady State Analyse of existing Compressed Air Energy Storage Plants." Power and Energy Student Summit (PESS). Dortmund, Germany (2015). https://www.efzn.de/uploads/tx_wiwimitarbeiter/S02.2.pdf
 
 [^6]: The highest efficiencies are reached under optimal operation conditions. Additional efficiency loss is caused by the fact that during expansion the storage reservoir is being discharged and the pressure drops. Meanwhile, the input pressure for the expander is required to vary only in a minimal range to assure high efficiency during expansion. To bring together both requirements, air can be stored in a tank with surplus pressure and throttled down to the required expander input pressure – which is obviously linked to efficiency loss. [5]
 
@@ -221,7 +222,7 @@ References & Notes:
 
 [^10]: Smil, Vaclav. "Energy in world history." (1994).
 
-[^11]: Ewbank, Thomas. A Descriptive and Historical Account of Hydraulic and Other Machines for Raising Water, Ancient and Modern: Including the Progressive Development of the Steam Engine. No. 32707. Tilt and Bogue, 1842. 
+[^11]: Ewbank, Thomas. A Descriptive and Historical Account of Hydraulic and Other Machines for Raising Water, Ancient and Modern: Including the Progressive Development of the Steam Engine. No. 32707. Tilt and Bogue, 1842.
 
 [^12]: Nye, David E. "Hunter Louis C. and Bryant Lynwood. A History of Industrial Power in the United States, 1780–1930. Volume 3: The Transmission of Power. Cambridge, Mass, and London: MIT Press, 1991. Pp. xxv+ 596 ISBN 0-262-08198-9." The British Journal for the History of Science 25.4 (1992): 476-477.
 
@@ -243,19 +244,19 @@ References & Notes:
 
 [^21]: Cheng, Jie. Configuration and optimization of a novel compressed-air-assisted wind energy conversion system. The University of Nebraska-Lincoln, 2016. https://digitalcommons.unl.edu/cgi/viewcontent.cgi?referer=https://www.google.es/&httpsredir=1&article=1081&context=elecengtheses
 
-[^22]: Zakeri, Behnam, and Sanna Syri. "Electrical energy storage systems: A comparative life cycle cost analysis." Renewable and Sustainable Energy Reviews 42 (2015): 569-596. https://www.researchgate.net/profile/Behnam_Zakeri/publication/281277805_Electrical_energy_storage_systems_A_comparative_life_cycle_cost_analysis_2015/links/55deac0008ae79830bb58ede.pdf 
+[^22]: Zakeri, Behnam, and Sanna Syri. "Electrical energy storage systems: A comparative life cycle cost analysis." Renewable and Sustainable Energy Reviews 42 (2015): 569-596. https://www.researchgate.net/profile/Behnam_Zakeri/publication/281277805_Electrical_energy_storage_systems_A_comparative_life_cycle_cost_analysis_2015/links/55deac0008ae79830bb58ede.pdf
 
-[^23]: Bagdanavicius, Audrius, and Nick Jenkins. "Exergy and exergoeconomic analysis of a Compressed Air Energy Storage combined with a district energy system." Energy Conversion and Management 77 (2014): 432-440. https://lra.le.ac.uk/bitstream/2381/37140/2/ECM_CAESpaper_final.pdf 
+[^23]: Bagdanavicius, Audrius, and Nick Jenkins. "Exergy and exergoeconomic analysis of a Compressed Air Energy Storage combined with a district energy system." Energy Conversion and Management 77 (2014): 432-440. https://lra.le.ac.uk/bitstream/2381/37140/2/ECM_CAESpaper_final.pdf
 
-[^24]: Ji, Wei, et al. "Thermodynamic analysis of a novel hybrid wind-solar-compressed air energy storage system." Energy Conversion and Management 142 (2017): 176-187. 
+[^24]: Ji, Wei, et al. "Thermodynamic analysis of a novel hybrid wind-solar-compressed air energy storage system." Energy Conversion and Management 142 (2017): 176-187.
 
 [^25]: Houssainy, Sammy, et al. "Thermodynamic analysis of a high temperature hybrid compressed air energy storage (HTH-CAES) system." Renewable Energy 115 (2018): 1043-1054.
 
-[^26]: Torrence, Euart Carl. "Hydraulic air compressors." (1898). http://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1385&context=bachelors_theses 
+[^26]: Torrence, Euart Carl. "Hydraulic air compressors." (1898). http://scholarsmine.mst.edu/cgi/viewcontent.cgi?article=1385&context=bachelors_theses
 
 [^27]: Pèlachs, Albert, et al. "Changes in Pyrenean woodlands as a result of the intensity of human exploitation: 2,000 years of metallurgy in Vallferrera, northeast Iberian Peninsula." Vegetation History and archaeobotany 18.5 (2009): 403-416.
 
-[^28]: Tomàs, Estanislau. "The Catalan process for the direct production of malleable iron and its spread to Europe and the Americas." Contributions to science (2000): 225-232. https://www.raco.cat/index.php/Contributions/article/viewFile/157654/209545 
+[^28]: Tomàs, Estanislau. "The Catalan process for the direct production of malleable iron and its spread to Europe and the Americas." Contributions to science (2000): 225-232. https://www.raco.cat/index.php/Contributions/article/viewFile/157654/209545
 
 [^29]: Hydraulic Air Compressor (HAC) Demonstrator Project, Dean Millar, 2017. https://aceee.org/files/proceedings/2017/data/polopoly_fs/1.3687890.1501159068!/fileserver/file/790271/filename/0036_0053_000034.pdf
 
@@ -263,4 +264,4 @@ References & Notes:
 
 [^31]: Hartenberg, R. S., and J. Denavit. "The fabulous air compressor." Mach. Des 21 (1960): 168-170.
 
-[^32]: Millar, Dean L. "A review of the case for modern-day adoption of hydraulic air compressors." Applied Thermal Engineering 69.1-2 (2014): 55-77. 
+[^32]: Millar, Dean L. "A review of the case for modern-day adoption of hydraulic air compressors." Applied Thermal Engineering 69.1-2 (2014): 55-77.
