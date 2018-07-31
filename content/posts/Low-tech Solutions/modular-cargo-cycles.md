@@ -1,11 +1,12 @@
 Title: Modular Cargo Cycles
-Date: 2014-05-05 16:13
-Author: Kris De Decker
+Date: 2014-05-05
 Category: Low-tech Solutions
 Slug: modular-cargo-cycles
+Summary: Modular cargo cycles are cheap to build and easy to customize.
 Status: published
 
-
+![image](/images/XYZ-cargo-Trike.png)
+Picture: The modular XYZ Cargo Trike by N55.
 
 Following more than two years of research and development, the Danish
 art collective [N55](http://www.n55.dk/) has presented its [modular
@@ -16,15 +17,8 @@ price of similar cargo cycles on the market. Because their design is
 open and modular, the XYZ Cargo Cycles are even cheaper to build
 yourself, and easy to customize.
 
-----------------------------------------------------------------------------------------------------------------------------------------------  
-
-  
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
 Article also available in
 [French](http://www.lowtechmagazine.com/des-cycles-utilitaires-modulaires.html).
-Picture: The modular XYZ Cargo Trike by N55.
 
 [XYZ Cargo](http://www.xyzcargo.com/) brings together two technologies
 that have been praised at Low-tech Magazine: open modular hardware and
@@ -43,7 +37,7 @@ providers]({filename}/posts/jobs-of-the-future-cargo-cyclist.md).
 The open modular cargo cycles built by N55 in collaboration with
 designer/artist Till Wolfer combine all those benefits.
 
-Innovation
+## Innovation
 
 The market for cargo bikes is booming. This was the overall feeling at
 the [International Cargo Bike
@@ -60,8 +54,7 @@ manufacturers have presented systems that obviate the need for a
 conventional fork, allowing for better control and increased cargo
 space.
 
-
-
+![image](/images/elian-cargo-bike.png)
 The [Elian Cargo
 Bike](http://www.eliancycles.com/builds/elians-cargo-bike), with
 steering in the front hub.
@@ -79,7 +72,7 @@ These cycles are well worth the money, but they are obviously not within
 reach of everybody. Less fancy cargo cycles still have minimum prices of
 around 2,500 euro (\$ 3,500).
 
-Modular Cargo Cycles
+## Modular Cargo Cycles
 
 This is why the affordable [XYZ Cargo Cycles](http://www.xyzcargo.com/)
 deserve our special attention. The assembled versions of the XYZ Cargo
@@ -106,12 +99,13 @@ joints used for example in the traditional wooden frames seen in inuit
 kayaks, or with rivet constructions such as airplane hulls or old ship
 hulls.
 
+![image](/images/XYZ-cargo-bike-1.jpg)
 
+![image](/images/XYZ-cargo-bike-2.jpg)
 
+![image](/images/)
 
-
-
-
+![image](/images/XYZ-cargo-bike-3.jpg)
 The XYZ Cargo Bike.
 
 It's a simple method of building light-weight things from durable
@@ -123,7 +117,7 @@ greater strength, hereby leaving a free open space inside the frame.
 This made it possible to place gear wheels and chains within the frame,
 away from the users.
 
-Easy to Build and Customize
+## Easy to Build and Customize
 
 The cargo cycles are open source concepts which you can modify yourself.
 The designs&mdash;including any new construction principle used in the
@@ -150,10 +144,9 @@ resistance and protect from the weather can be applied&mdash;turning the
 cargo cycle into a
 [velomobile](http://www.lowtechmagazine.com/velomobiles).
 
+![image](/images/cargo-trike.jpg)
 
-
-
-
+![image](/images/modular-cargo-trike.png)
 The modular XYZ Cargo Trike.
 
 Several modules have been developed that can be put on top of the XYZ
@@ -174,7 +167,7 @@ development of the technology. N55 gives away the building plans and
 offers the assembled bikes for a low price because they want to see as
 many of them on the road.
 
-Available Models and Free Plans
+## Available Models and Free Plans
 
 The [freshly opened webshop of XYZ Cargo](http://www.xyzcargo.com/)
 offers two models for sale. The XYZ Cargo Bike weighs 26 kg and measures
@@ -184,7 +177,7 @@ measures 208 x 94 x 105 cm (LxWxH). The cargo box of the Trike measures
 Both cargo models can be equipped with electric hub motors and
 batteries.
 
-
+![image](/images/modular.jpg)
 
 Two other vehicles have been produced, the XYZ One Seater (20 kg) and
 the XYZ Two Seater (34 kg). These pedal powered vehicles (with or
@@ -206,7 +199,7 @@ which got most of the attention at the Cargo Bike events.
 
 Kris De Decker & Jo van Bostraeten
 
-Related Articles:
+## Related Articles:
 
 -   [How to Make Everything Ourselves: Open Modular
     Hardware]({filename}/posts/how-to-make-everything-ourselves-open-modular-hardware.md)
@@ -218,5 +211,3 @@ Related Articles:
 -   [Pedal Powered Farms and Factories: the Forgotten Future of the
     Stationary
     Bicycle]({filename}/posts/pedal-powered-farms-and-factories.md)
-
-----------------------------------------------------------------------------------------------------------------------------------------------

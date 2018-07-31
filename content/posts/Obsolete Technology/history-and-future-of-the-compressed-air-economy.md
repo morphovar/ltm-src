@@ -4,7 +4,7 @@ Category: Obsolete Technology
 Tags: compressed air, power transmission, energy storage
 Slug: history-and-future-of-the-compressed-air-economy
 Status: published
-Summary: xxxxxxxxxxxxxxx
+Summary: Historical compressed air systems hold the key to the design of a low-tech, low-cost, robust, sustainable and relatively energy efficient energy storage medium.
 
 ![vintage three stage compressor](/images/vintage-three-stage-compressor.png)
 
