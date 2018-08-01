@@ -1,11 +1,38 @@
 {% extends "base.html" %}
-{% block content %}
-<h1>Archives for {{ SITENAME }}</h1>
+{% block body_class %}
+<body class ="index">
+{% endblock body_class %}
 
-<dl>
-{% for article in dates %}
-    <dt>{{ article.locale_date }}</dt>
-    <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></dd>
-{% endfor %}
-</dl>
+{% block content %}
+<section id="archive">
+{% block content_title %}
+
 {% endblock %}
+
+<div id="filters">
+    <div class="filter active desc" id="date">
+    Date
+    </div>
+
+    <div class="filter asc" id="title">
+    Title
+    </div>
+
+    <div class="filter asc" id="cat">
+    Theme
+    </div>
+</div>
+
+<ul>
+{% for article in dates %}
+    <li><article>
+            <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %Y')}}</time>
+            <div class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></div>
+            <div class="category {{ article.category}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
+    </article></li>
+{% endfor %}
+</ul><!-- /#archive-list -->
+</section><!-- /#content -->
+
+
+{% endblock content %}

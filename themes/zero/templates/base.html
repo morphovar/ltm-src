@@ -7,7 +7,11 @@
 
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+    {% assets filters="scss,cssmin", output="css/style.min.css", "css/style.scss" %}
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ ASSET_URL }}">
+    {% endassets %}
+
+    <!-- <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" /> -->
 
     {% from 'syndication.html' import syndication with context %}
     {{ syndication(article) }}
@@ -45,16 +49,13 @@
 {% endblock body_class %}
   <div id="battery">
     <div id="info">
-      <div id="time">
-      </div>
     </div>
   </div>
   <main>
-    <header id="banner" class="body">
+    <header class="top">
 	    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         <div class="subtitle">
-            <span id="status">This website runs on a solar powered olimex</span> |
-            <span id="uptime">Which means that sometimes it goes off-line</span>
+          Solar powered website / Location: Barcelona / Time: <span id="time"></span> / Sky: ☀ / Server contintuously running for: <span id="uptime">Which means that sometimes it goes off-line</span>
         </div>
         <nav id="menu"><ul>
             {% for title, link in MENUITEMS %}
@@ -65,16 +66,17 @@
                 <li{% if p == page %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a> | </li>
               {% endfor %}
             {% endif %}
-            {% if DISPLAY_CATEGORIES_ON_MENU %}
-                {% for cat, null in categories %}
-                  <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a> | </li>
-                {% endfor %}
-            {% endif %}
+            <li class="low"><a href="/category/low-tech-solutions.html">Low-tech Solutions</a></li> |
+            <li class="hig"><a href="/category/high-tech-problems.html">High-tech Problems</a></li> |
+            <li class="obs"><a href="/category/obsolete-technology.html">Obsolete Technology</a></li> |
 
-            <li><a href="http://www.notechmagazine.com/">No&larr;Tech Magazine</a></li>
+
+            <li><a href="/archives.html">Archive</a></li>
+
+            <!-- <li><a href="http://www.notechmagazine.com/">No&larr;Tech Magazine</a></li> -->
 
         {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-            <li> |
+            <li>
             <span class="social">
                 <a href="http://feeds2.feedburner.com/typepad/krisdedecker/lowtechmagazineenglish" type="application/rss+xml" rel="alternate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>rss</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
                <a href="https://www.facebook.com/Lowtechmagazine/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>facebook</title><path d="M57.16,16.42H50.87c-4.93,0-5.85,2.36-5.85,5.77v7.57H56.76L55.2,41.61H45V72H32.77V41.61H22.56V29.76H32.77V21C32.77,10.9,39,5.37,48,5.37a78.35,78.35,0,0,1,9.13.48Z"/></svg></a>
@@ -91,12 +93,14 @@
     {% block content %}
     {% endblock %}
     <footer id="content-info" class="body">
+            <p>
             {{ SITENAME }}:
             <span class="subtitle">
             {{ SITESUBTITLE }}
             </span>
+            </p>
             <p>&copy; Kris De Decker | kris [at] lowtechmagazine [dot] com |
-               <a href="{{ SITEURL }}/copyright/">Copyright &amp; Translations</a> | <a href="{{ SITEURL }}/privacy/">Privacy Policy</a> |
+               <a href="{{ SITEURL }}/privacy/">Privacy Policy</a> |
                  <span class="social">
                     <a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>rss</title><circle cx="19.91" cy="58.23" r="6.86"/><path d="M67.89,65.72H55.7A41.86,41.86,0,0,0,13.89,23.91V11.73A54.06,54.06,0,0,1,67.89,65.72Z"/><path d="M48.93,65.72H36.75A22.88,22.88,0,0,0,13.89,42.87V30.68A35.08,35.08,0,0,1,48.93,65.72Z"/></svg></a>
                     <a href="https://www.facebook.com/Lowtechmagazine/"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>facebook</title><path d="M57.16,16.42H50.87c-4.93,0-5.85,2.36-5.85,5.77v7.57H56.76L55.2,41.61H45V72H32.77V41.61H22.56V29.76H32.77V21C32.77,10.9,39,5.37,48,5.37a78.35,78.35,0,0,1,9.13.48Z"/></svg></a>
@@ -105,14 +109,14 @@
                     <a href="mailto:kris[at]lowtechmagazine[dot]com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>email</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
                </span><!-- /.social -->
             </p><!-- /#about -->
-
-            <a href="{{ SITEURL }}/donate" class="button support" title="Donate">Support Low-tech Magazine</a><!-- /donate button -->
+<!-- 
+            <a href="{{ SITEURL }}/donate" class="button support" title="Donate">Support Low-tech Magazine</a> donate button -->
 
 
     </footer><!-- /#contentinfo -->
 </main>
 <script
-src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></script>
+src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/tinysort.min.js"></script>
 <script
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
@@ -151,6 +155,18 @@ src="https://cdnjs.cloudflare.com/ajax/libs/tinysort/2.3.6/tinysort.min.js"></sc
     var uptime = data.uptime;
     $('#uptime').html(uptime);
   });
+
+  var time;
+  function calcTime(offset) {
+      d = new Date();
+      utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+      localdate = new Date(utc + (3600000*offset));
+      time = localdate.toLocaleString();
+      $('#time').html(time);
+  }
+  setInterval(function(){
+    calcTime(2);
+  },1000);
 
 </script>
 </body>

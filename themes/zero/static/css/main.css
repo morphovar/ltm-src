@@ -1,8 +1,8 @@
 /*
 	Name: Low-tech theme
-	Date: August 2017
+	Date: August 2018
 	Description: Custom theme for Low-Tech Magazine
-	Version: 1.0
+	Version: 2.0
 	License: MIT <http://opensource.org/licenses/MIT>
 	Original author: Marie Otsuka
 */
@@ -19,7 +19,6 @@ body{
 	font-family: serif;
 	background: #ffffff;
 }
-
 
 h1,h2,h3,h4,h5,h6{
 	font-weight: normal;
@@ -55,8 +54,8 @@ main {
 	position:absolute;
 	top: 0;
 	left: 0;
+	right: 0;
 	padding: 1rem;
-	width:99vw;
 }
 /*
 CATEGORY COLORS
@@ -127,7 +126,28 @@ INDEX LIST
 #post-list{
 	list-style-type: none;
 	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
 }
+#post-list li{
+	max-width: 33%;
+  padding: 1rem 2rem 1rem 0;
+}
+.featured-img{
+	margin: 0.5rem 0;
+}
+
+
+#archive-list{
+	list-style-type: none;
+}
+#archive-list li{
+	padding: .2rem 0;
+	overflow: auto;
+	border: 1px solid transparent;
+	border-width: 1px 0px;
+}
+
 #filters{
 	padding: .2rem 0;
 	text-transform: uppercase;
@@ -149,28 +169,21 @@ INDEX LIST
 	content:"\25bc";
 	font-size: .8rem;
 }
-#post-list li{
-	clear: both;
-	padding: .2rem 0;
-	overflow: auto;
-	border: 1px solid transparent;
-	border-width: 1px 0px;
-}
-#post-list li:hover{
+#archive-list li:hover{
 	border-color: #000;
 }
-#post-list time, #post-list .entry-title, #post-list .category{
+#archive-list time, #archive-list .entry-title, #archive-list .category{
 	float: left;
 	padding-right: .5rem;
 }
-#post-list time, #date{
+#archive-list time, #date{
 	width: 15%;
 }
-#post-list .entry-title, #title{
+#archive-list .entry-title, #title{
 	font-size: 1rem;
 	width: 65%;
 }
-#post-list .category, #cat{
+#archive-list .category, #cat{
 	width: 20%;
 }
 
@@ -205,11 +218,6 @@ p.category{
 	width: 80%;
 	max-width: 33rem;
 }
-
-/* .entry-content p>img{
-	position: relative;
-	width: 100vw;
-} */
 
 p.summary, blockquote p{
 	font-size: 1.3rem;
@@ -420,16 +428,13 @@ MEDIA QUERIES
 	.entry-content p, .entry-content ul, .entry-content ol, .footnote{
 		width: 100%;
 	}
-
-	#filters>div, #post-list time, #post-list .entry-title, #post-list .category{
+	#filters>div, #archive-list time, #archive-list .entry-title, #archive-list .category{
 		width: 100%;
 		margin-bottom: .4rem;
 	}
-
-	#post-list time, #post-list .category{
+	#archive-list time, #archive-list .category{
 		font-size: .8rem;
 	}
-
 	#content {
 		width: 98%;
 	}

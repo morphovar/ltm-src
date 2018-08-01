@@ -9,27 +9,25 @@
 
 {% endblock %}
 
-<div id="filters">
-    <div class="filter active desc" id="date">
-    Date
-    </div>
-
-    <div class="filter asc" id="title">
-    Title
-    </div>
-
-    <div class="filter asc" id="cat">
-    Theme
-    </div>
-</div>
-
 <ul id="post-list">
 {% for article in articles_page.object_list %}
-        <li><article class="hentry">
-                <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %Y')}}</time>
+    {% if loop.index is lt 13 %}
+        <li class = "{{article.category|lower|truncate(3,True, '')}}"><article>
                 <header> <h2 class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2> </header>
-                <div class="category {{ article.category}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
+                <div class="category {{article.category|lower|truncate(3,True, '')}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>
+
+                {% if article.featured_image %}
+                <div class="featured-img"><img src="{{ article.featured_image }}">
+                </div>
+                {% endif %}
+
+                {% if article.summary %}
+                <p class="index-summary">{{ article.summary }}</p>
+                {% endif %}
+
+                <time class="published" datetime="{{ article.date.isoformat() }}">&larr; {{ article.date|strftime('%B %Y')}}</time>
         </article></li>
+      {% endif %}
 {% endfor %}
 </ul><!-- /#posts-list -->
 {% if articles_page.has_other_pages() %}

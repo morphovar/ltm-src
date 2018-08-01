@@ -1,7 +1,7 @@
 window.onload = function() {
 
 /*LIST SORTING--------------*/
-  var listElements = document.querySelectorAll('#post-list li');
+  var listElements = document.querySelectorAll('#archive ul li');
   var filters = document.getElementsByClassName('filter');
 
   for (var i = 0; i < filters.length; i++) {
@@ -67,19 +67,19 @@ window.onload = function() {
 
   // });
 
-// /*CLOCK--------------*/
-//   var time;
-//   function calcTime(offset) {
-//       d = new Date();
-//       utc = d.getTime() + (d.getTimezoneOffset() * 60000);
-//       localdate = new Date(utc + (3600000*offset));
-//       time = localdate.toLocaleString();
-//       $('#time').html(time);
-//   }
-
-//   setInterval(function(){
-//     calcTime(2);
-//   },1000);
+/*CLOCK--------------*/
+  // var time;
+  // function calcTime(offset) {
+  //     d = new Date();
+  //     utc = d.getTime() + (d.getTimezoneOffset() * 60000);
+  //     localdate = new Date(utc + (3600000*offset));
+  //     time = localdate.toLocaleString();
+  //     $('#time').html(time);
+  // }
+  //
+  // setInterval(function(){
+  //   calcTime(2);
+  // },1000);
 
 /*EXTERNAL LINKS--------------*/
   // function externalLinks() {

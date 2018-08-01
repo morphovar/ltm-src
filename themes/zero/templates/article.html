@@ -68,11 +68,13 @@
  {% endif %}
  {% if article.next_article %}
       <li class="newer">
+          <p>&larr; newer article</p>
           <a href="{{ SITEURL }}/{{ article.next_article.url}}">
               {{ article.next_article.title }}
           </a>
       </li>
       <li class="older">
+        <p>older article &rarr;</p>
         <a href="{{ SITEURL }}/{{ article.prev_article.url}}">
             {{ article.prev_article.title }}
         </a>
