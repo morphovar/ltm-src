@@ -122,7 +122,6 @@ CATEGORY COLORS
 header.top {
 	padding-bottom: $pad;
 	border-bottom: 2px solid $color;
-  margin-bottom: 1.5*$pad;
 	h1 {
 		text-transform: uppercase;
 	}
@@ -145,6 +144,9 @@ header.top {
 	width: 20px;
 	height: 20px;
 }
+#content h1{
+	margin-top: $pad;
+}
 /*
 INDEX LIST
 */
@@ -154,11 +156,12 @@ INDEX LIST
 	display: flex;
 	flex-wrap: wrap;
 	li {
-		max-width: 33%;
+		max-width: 25%;
 		padding: 2*$pad 4*$pad 2*$pad 0;
 	}
 	time{
 		margin: $pad 0;
+		display: block;
 		color: $color_2;
 	}
 }
@@ -305,7 +308,7 @@ FOOTNOTES
 	max-width: 33rem;
 	margin: auto;
 	ol {
-		margin-left: 2*$pad;
+		width: 100%;
 	}
 	p {
 		line-height: 1.2;
@@ -462,8 +465,5 @@ MEDIA QUERIES
 			margin-bottom: .4rem;
 			font-size: $size_s;
 		}
-	}
-	#content {
-		width: 98%;
 	}
 }
