@@ -1,4 +1,8 @@
 {% extends "index.html" %}
+{% block body_class %}
+<body class = "{{category|lower|truncate(3,True, '')}}">
+{% endblock body_class %}
+
 {% block content_title %}
 <h1>{{ category }}</h1>
 {% endblock %}

@@ -55,7 +55,8 @@
     <header class="top">
 	    <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
         <div class="subtitle">
-          Solar powered website / Location: Barcelona / Time: <span id="time"></span> / Sky: ☀ / Server contintuously running for: <span id="uptime">Which means that sometimes it goes off-line</span>
+          Solar powered website / Location: Barcelona / Time: <span id="time"></span> / Sky: ☀ <br>
+          Server status: <span id="uptime">which means that sometimes it goes off-line</span>
         </div>
         <nav id="menu"><ul>
             {% for title, link in MENUITEMS %}
@@ -109,7 +110,7 @@
                     <a href="mailto:kris[at]lowtechmagazine[dot]com"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" class="icon"><title>email</title><path d="M4.95,13.14v55H74.33v-55Zm54.34,8.12L39.64,39.74,20,21.26ZM13.07,60V25.91l26.56,25,26.57-25V60Z"/></svg></a>
                </span><!-- /.social -->
             </p><!-- /#about -->
-<!-- 
+<!--
             <a href="{{ SITEURL }}/donate" class="button support" title="Donate">Support Low-tech Magazine</a> donate button -->
 
 
@@ -140,9 +141,9 @@ src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/tinysort.min.js"></script>
         html: stats.join( "" )
     }).appendTo( ".data" );
     //battery level background
-    var level = data.bat_capacity;
+    var level = 100-parseFloat(data.bat_capacity);
     console.log(level);
-    $('#battery').css('height',level);
+    $('#battery').css('height',level+"%");
     //status
     var status;
     if (data.ac_used=="no"){

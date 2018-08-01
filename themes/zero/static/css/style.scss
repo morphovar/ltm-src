@@ -6,6 +6,7 @@
 */
 
 $color: black;
+$color_2: gray;
 $color_low: #0000e0;
 $color_hig: #da0029;
 $color_obs: #00962a;
@@ -32,6 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 h1 {
 	font-size: $size_l;
+	line-height: .95;
 }
 a {
 	color: $color;
@@ -48,7 +50,7 @@ BACKGROUND
 	bottom: 0;
 	left: 0;
 	width: 100vw;
-	background: rgba($color,0.1);
+	background: rgba($color,0.5);
 }
 #info {
 	position: fixed;
@@ -68,12 +70,12 @@ CATEGORY COLORS
 */
 .index {
 	#battery {
-		background: rgba($color,0.1);
+		background: rgba($color,0.5);
 	}
 }
 .low {
 	#battery {
-		background: rgba($color_low,0.1);
+		background: rgba($color_low,0.5);
 	}
 	img {
 		background: $color_low;
@@ -84,7 +86,7 @@ CATEGORY COLORS
 }
 .hig {
 	#battery {
-		background: rgba($color_hig,0.1);
+		background: rgba($color_hig,0.5);
 	}
 	img {
 		background: $color_hig;
@@ -95,7 +97,7 @@ CATEGORY COLORS
 }
 .obs {
 	#battery {
-		background: rgba($color_obs,0.1);
+		background: rgba($color_obs,0.5);
 	}
 	img {
 		background: $color_obs;
@@ -120,6 +122,7 @@ header.top {
 }
 .subtitle {
 	margin-bottom: 0.5*$pad;
+	color: $color_2;
 }
 .social {
 	display: inline-block;
@@ -143,6 +146,7 @@ INDEX LIST
 	}
 	time{
 		margin: $pad 0;
+		color: $color_2;
 	}
 }
 .featured-img {
