@@ -1,11 +1,14 @@
 Title: Restoring the Old Way of Warming: Heating People, not Places
-Date: 2015-02-11 18:32
+Date: 2015-02-11
 Author: Kris De Decker
 Category: Obsolete Technology
 Slug: heating-people-not-spaces
+Summary: Most modern heating systems are primarily based on the heating of air. This seems an obvious choice, but there are far worthier alternatives.
 Status: published
 
-
+![image](/images/restoring-old-way-of-warming.png)
+People gathering around a tile stove. [Die Bauern und die Zeitung](http://commons.wikimedia.org/wiki/File:Anker_Die_Bauern_und_die_Zeitung_1867.jpg),
+a painting by Albert Anker, 1867.
 
 These days, we provide thermal comfort in winter by heating the entire
 volume of air in a room or building. In earlier times, our forebear's
@@ -21,12 +24,7 @@ It would make a lot of sense to restore this old way of warming,
 especially since modern technology has made it so much more practical,
 safe and efficient.
 
-  [Die Bauern
-und die
-Zeitung](http://commons.wikimedia.org/wiki/File:Anker_Die_Bauern_und_die_Zeitung_1867.jpg),
-a painting by Albert Anker, 1867.*******
-
-----------------------------------------------------------------------------------------------------------------------------------------------
+## Conduction, Convection, Radiation
 
 Most modern heating systems are primarily based on the heating of air.
 This seems an obvious choice, but there are far worthier alternatives.
@@ -41,29 +39,30 @@ people comfortable, radiation and conduction can directly transfer heat
 to people, making energy use independent of the size of a room or
 building.
 
-Conduction, Convection, Radiation
-
 First, let's have a look at the different methods of heat transfer in
 some more detail. Conduction and convection are closely related.
 Conduction concerns the transfer of energy due to the physical contact
 between two objects: heat will flow from the warmer to the cooler
 object. The speed at which this happens depends on the thermal
-resistance of the substance. For example, heat is transferred much
-faster through metal than through wood, because metal has a lower
+resistance of the substance. 
+
+For example, heat is transferred much faster through metal than through wood, because metal has a lower
 thermal resistance. This explains why, for instance, a cold metal object
 feels much colder than a cold wooden object, even though they both have
 the same temperature.
 
-
-heat transfer from the body to the environment.
+![image](/images/convection.png)
+Convective heat transfer from the body to the environment.
 
 Conduction not only occurs between physical objects, but also between
 physical objects and gasses (like air), and between gasses mutually.
 Each physical object that is warmer than the air that surrounds it,
 heats up the air in the immediate vicinity through conduction. By
 itself, this effect is limited, because air has a high thermal
-resistance&mdash;that's why it forms the basis of most thermal insulation
-materials. However, the air that is warmed by conduction expands and
+resistance that's why it forms the basis of most thermal insulation
+materials. 
+
+However, the air that is warmed by conduction expands and
 rises. Its place is taken by cold air, which is heated in turn, expands,
 rises, and so on. This plume of warm air that rises from every object
 that is warmer than the surrounding air, is called convection.
@@ -73,7 +72,9 @@ different way from conduction and convection. Radiant energy is
 transferred through electromagnetic waves, similar to light or sound.
 More precisely, it concerns the part of the electromagnetic spectrum
 that's called infrared radiation. Radiation doesn't need a medium (like
-air or water) for heat transfer. It also works in a vacuum and it's the
+air or water) for heat transfer. 
+
+It also works in a vacuum and it's the
 most important form of heat transfer in outer space. The primary source
 of radiant energy is the sun, but every object on earth radiates infared
 energy as long as it has mass and a temperature above absolute zero.
@@ -82,22 +83,22 @@ Radiant energy doesn't have a temperature. Only when it hits the surface
 of an object with mass, the energy can be absorbed and converted into
 heat.
 
-Thermal Comfort at Low Air Temperatures
+## Thermal Comfort at Low Air Temperatures
 
 Because of the general use of central air heating (and cooling) systems,
 we have come to believe that our indoor thermal comfort depends mainly
 on air temperature. However, the human body exchanges heat with its
 environment through convection, radiation, conduction and evaporation (a
-form of "latent" heat transfer). Convection relates to the heat exchange
+form of "latent" heat transfer). 
+
+Convection relates to the heat exchange
 between the skin and the surrounding air, radiation is the heat exchange
 between the skin and the surrounding surfaces, evaporation concerns the
 moisture loss from the skin, and conduction relates to the heat exchange
 between a part of the human body and another object that it's in contact
 with.
 
-> If the share of radiation or conduction in the total heat transfer
-> increases, people can be perfectly comfortable at a lower air
-> temperature during the heating season
+> If the share of radiation or conduction in the total heat transfer increases, people can be perfectly comfortable at a lower air temperature during the heating season
 
 In winter we can remain comfortable in lower air temperatures by
 increasing the share of radiation or conduction in the total heat
@@ -121,8 +122,7 @@ directly when it is exposed to sunlight. This higher "radiant
 temperature", which can be measured with a black-globe thermometer,
 allows thermal comfort at a colder air temperature in winter.
 
-
-
+![image](/images/radiant-heating-explained.png)
 Radiant heating systems compensate a lower air temperature with a higher
 radiant temperature, while air heating systems compensate a lower
 radiant temperature with a higher air temperature. The operative
@@ -147,10 +147,9 @@ temperature and providing thermal comfort at a colder air temperature.
 The use of radiant heating is more practical indoors, where
 environmental factors are under control. If a wind picks up outside, for
 example, the warming effect of the sun quickly
-[disappears]({filename}/posts/circulating-fans-air-conditioning.md).
+[disappears](/2014/09/circulating-fans-air-conditioning/).
 
-> It's not the sun but the earth's surface that heats the air on our
-> planet
+> It's not the sun but the earth's surface that heats the air on our planet
 
 A 100% radiant heating system doesn't exist, because both the radiant
 heating surface and the irradiated surfaces make contact with the air
@@ -171,7 +170,7 @@ guarantee of thermal comfort. The best understanding of the thermal
 environment in a space is given by the "operative temperature", which is
 a weighted average of both.
 
-The Old Way of Warming
+## The Old Way of Warming
 
 Before the arrival of central air heating systems in the twentieth
 century, buildings were mainly heated by a central radiant heat source,
@@ -187,27 +186,23 @@ with distance. It's not that the infrared waves become weaker, but that
 they become more dispersed as they are fanning out from a specific
 source. This is shown in the two illustrations below, which appear in
 Richard Watson's "Radiant Heating and Cooling Handbook". The drawing on
-the left shows the radiant heat distribution (or "radiant landscape") in
+on top shows the radiant heat distribution (or "radiant landscape") in
 a room, seen from above, which is warmed by a forced-air heating system.
 The average radiant temperature in the space is 20ºC (68ºF). Except for
 the influence of a cold window surface (at the top of the illustration),
 the radiant temperature is relatively constant throughout the room.
 
-[![Contour plot of MRT gradients for forced-air heating system with
-average room MRT of 20
-degrees](http://krisdedecker.typepad.com/.a/6a00e0099229e8883301bb07b97926970d-350wi "Contour plot of MRT gradients for forced-air heating system with average room MRT of 20 degrees")](http://krisdedecker.typepad.com/.a/6a00e0099229e8883301bb07b97926970d-pi)[![Contour
-plot of MRT gradients for radiant heating system with average room MRT
-of 20
-degrees](http://krisdedecker.typepad.com/.a/6a00e0099229e8883301bb07b97937970d-350wi "Contour plot of MRT gradients for radiant heating system with average room MRT of 20 degrees")](http://krisdedecker.typepad.com/.a/6a00e0099229e8883301bb07b97937970d-pi)
+![image](/images/contour-plot-1.png)
 
-Source: *Radiant Heating and Cooling Handbook*. Richard Watson, 2008
+![image](/images/contour-plot-2.png)
+Source: Radiant Heating and Cooling Handbook. Richard Watson, 2008
 
-The illustration on the right shows the same room, again with a mean
+The illustration below shows the same room, again with a mean
 radiant temperature of 20ºC (68ºF), but now heated with a radiant heat
 source which is located at the centre of the ceiling. It concerns an
 electric longwave infrared panel, a new technology that we will explain
 in the [second part of this
-article]({filename}/posts/radiant-and-conductive-heating-systems.md),
+article](/2015/03/radiant-and-conductive-heating-systems/),
 but a fireplace in the middle of the room would give a similar result.
 The radiant landscape is now very different. The highest radiant
 temperature is measured in the middle of the room, right below the
@@ -216,8 +211,7 @@ concentric circles towards the sides of the room. The difference between
 minimum and maximum radiant temperature is much larger than in the case
 of an air heating system.
 
-> In an air-heated room, it doesn't matter much where you are. In a room
-> heated by a radiant heating source, location is everything.
+> In an air-heated room, it doesn't matter much where you are. In a room heated by a radiant heating source, location is everything.
 
 Of course, a different location of the radiant heating surface, or a
 combination of two or more radiant heating surfaces, would again present
@@ -228,7 +222,7 @@ a room. Also note that the heterogeneous distribution of the radiant
 temperature will be somewhat tempered by the homogeneous character of
 the air temperature, no matter which heating system is being used.
 
-Energy-Efficiency
+## Energy-Efficiency
 
 In an air-heated room, it doesn't matter much where you are. In a room
 heated by a central radiant heating source, location is everything. The
@@ -240,10 +234,8 @@ or zone heating, which is impossible to realize with an air heating
 system. Instead of heating the entire space, our forefathers only heated
 the occupied parts of a building.
 
-
-
-Air heating (left) versus radiant heating (right) in a church building.
-Source: [Fabric-friendly heating, Dario
+![image](/images/air-versus-radiant-heating.jpg)
+Air heating (left) versus radiant heating (right) in a church building. Source: [Fabric-friendly heating, Dario
 Camuffo](http://www.buildingconservation.com/articles/fabric-friendly-heating/fabric-friendly-heating.htm).
 
 A similar thing happens on the vertical plane. Warm air rises, so that
@@ -260,7 +252,7 @@ the energy used by an air heating system benefits people. On the other
 hand, almost all the energy used by a radiant heating system is
 effectively heating humans.
 
-Local Insulation
+## Local Insulation
 
 A problem with the heterogeneous indoor climate of old times was radiant
 assymetry&mdash;the difference in radiant temperature between distinct
@@ -271,8 +263,7 @@ of the room. The body can be in thermal balance&mdash;the heat loss on one
 side equals the heat gain on the other&mdash;but if the temperature
 differences are too large, thermal comfort will not be obtained.
 
-
-
+![image](/images/radiant-assymetry.jpg)
 A bench with adjustable backrest. Source: [Dictionnaire de l'ameublement
 et de la décoration depuis le XIII
 siècle](http://gallica.bnf.fr/ark:/12148/bpt6k57648255), 1887-1890
@@ -288,9 +279,7 @@ fact that building surfaces were not insulated. Drafts, another cause of
 local thermal discomfort, were also a problem in old buildings, because
 they were anything but air-tight.
 
-> To create a comfortable microclimate without radiant assymetry or
-> draft, our forefathers supplemented local heating with local
-> insulation
+> To create a comfortable microclimate without radiant assymetry or draft, our forefathers supplemented local heating with local insulation
 
 To create a comfortable microclimate without radiant assymetry or
 drafts, our ancestors supplemented local heating with local. One example was the hooded chair. This chair, which could
@@ -304,19 +293,19 @@ chair was heated directly by the fire through radiation, and this heat
 was transferred to the person sitting in it. Recent research has shown
 that the insulation value of these types of chair amounted to at least
 0.4 clo, which corresponds to the [insulation
-value]({filename}/posts/body-insulation-thermal-underwear.md)
+value](/2011/02/body-insulation-thermal-underwear/)
 of a heavy pullover or coat. Some hooded chairs could host more than one
 person.
 
-
-
-
-
-Above: Hooded chairs from the nineteenth century. Sources: [Period Oak
+![image](/images/hooded-chairs.png)
+Hooded chairs from the nineteenth century. Sources: [Period Oak
 Antiques](http://www.periodoakantiques.co.uk/antique-sales-archive/a-rare-18thc-elm-hooded-lambing-chair-with-box-seat-27-stockno-429/)
 (left) and
 [Polyvore](http://www.polyvore.com/buttoned_leather_chesterfield_porter_chair/thing?id=55242872)
-(right). Below: A folding screen for winter use. Source: [Alain
+(right).
+
+![image](/images/folding-screen.png)
+A folding screen for winter use. Source: [Alain
 Truong](http://elogedelart.canalblog.com/archives/2009/04/05/13277504.html).
 
 An additional solution, which could also be used alone, was the folding
@@ -326,11 +315,12 @@ insulated chair, or behind a table, for instance. Like the hooded chair,
 the folding screen protected the back of a person against drafts and
 cold temperatures, creating a comfortable microclimate.
 
+![image](/images/bench-in-fireplace.png)
+A sitting area close to the fireplace (Source: [The English
+Fireplace](https://archive.org/details/cu31924015345139)). 
 
-
-Above: A sitting area close to the fireplace (Source: [The English
-Fireplace](https://archive.org/details/cu31924015345139)). Below: A
-four-poster bed (Source: [Wikipedia
+![image](/images/four-poster-bed.png)
+A four-poster bed (Source: [Wikipedia
 Commons](http://en.wikipedia.org/wiki/Four-poster_bed#mediaviewer/File:Four_Poster_Bed_350b.jpg)).
 
 A third example of local insulation were special sitting areas close to
@@ -344,7 +334,7 @@ a microclimate: the four poster bed, which had a canopy and thick
 curtains. When the curtains were closed, drafts were eliminated and body
 heat was trapped inside.
 
-Portable Heating Systems
+## Portable Heating Systems
 
 The apparent downside of spot heating is that you have to be in a
 specific location in order to be comfortable. In earlier times, the
@@ -355,6 +345,9 @@ rooms, were better suited for activities which required a higher
 metabolism. People were "migrating" throughout the room and throughout
 the house in search of the climate that suited their needs best.
 
+![image](/images/albert-anker-tile-stove.jpg)
+Familienszene in einem Interieur, a painting by Albert Anker, 1910
+
 However, the use of radiant heat sources and local insulation were also
 complemented by portable heating sources which transferred heat through
 radiation, convection and/or conduction. These could be used to further
@@ -363,8 +356,7 @@ were also helpful in bringing warmth to other locations. Portable
 heating systems were designed especially to heat the feet or the hands:
 the parts of the body that are most sensitive to cold.
 
-> Personal heating sources allowed people to enjoy the heat from the
-> central fireplace in unheated rooms, or even outside the house
+> Personal heating sources allowed people to enjoy the heat from the central fireplace in unheated rooms, or even outside the house
 
 An example is the foot stove, a box with one or more perforated
 partitions, which contained a metal or earthenware bowl or pan filled
@@ -375,11 +367,12 @@ chamber coat along the legs to the upper body. The upper part of the
 stove was made of wood or stone, as these materials have low thermal
 conductivity to avoid burns.
 
-
-
-Left: A Dutch foot stove ([Wikipedia
+![image](/images/dutch-foot-stove.png)
+A Dutch foot stove ([Wikipedia
 Commons](http://en.wikipedia.org/wiki/Foot_stove#mediaviewer/File:Voetenstoof.jpg)).
-Right: "[Young woman warming her
+
+![image](/images/woman-warming-hands.png)
+"[Young woman warming her
 hands](http://commons.wikimedia.org/wiki/File:Young_woman_warming_her_hands._Caesar_van_Everdingen.jpg)",
 a painting by Caesar van Everdingen.
 
@@ -402,8 +395,7 @@ water is a much safer heat medium than smouldering fire. These devices,
 which were often protected by a fabric cover, were used as foot warmers,
 hand warmers, or bed warmers.
 
-
-
+![image](/images/korsi.jpg)
 An Afghan "Korsi". Source unknown.
 
 Some peoples took the concept of the foot stove one level higher. The
@@ -416,7 +408,7 @@ burner was transferred through the traditional Japanese kimono, warming
 the whole body. Similar heating devices were used in Afghanistan (such
 as the "korsi"), as well as Iran, Spain and Portugal.
 
-Conductive Heating Systems
+## Conductive Heating Systems
 
 Some historical radiant heating systems also transferred heat through
 conduction, further improving efficiency and comfort. More than 3,000
@@ -429,9 +421,8 @@ during the day as a heated work and living space. The "dikang" ("warmed
 floor"), which was typical in North-Eastern China, worked in the same
 way as the kang, but had a larger floor area.
 
-
-
-Above: a Chinese Kang, photographed in the 1920s. Source: [Wandering in
+![image](/images/chinese-kang.jpg)
+A Chinese Kang, photographed in the 1920s. Source: [Wandering in
 Northern
 China](https://openlibrary.org/books/OL6658339M/Wandering_in_northern_China),
 Harry A. Franck.
@@ -446,13 +437,15 @@ The heat of the hot smoke gases was transferred to the thermal mass of
 the platform, which slowly released the warmth to the space. Conduction
 was as important as radiation and convection in the total heat transfer.
 
-
-
-Above: [Blick in eine Schwarzwaldstube mit kleinem Mädchen auf der
+![image](/images/tile-stove-1.jpg)
+[Blick in eine Schwarzwaldstube mit kleinem Mädchen auf der
 Ofenbank](http://commons.wikimedia.org/wiki/File:Georg_Saal_Schwarzwaldstube_1861.jpg),
-a painting by Georg Saal, 1861. Below: ***[Auf dem
+a painting by Georg Saal, 1861. 
+
+![image](/images/kids-on-tile-stove.jpg)
+[Auf dem
 Ofen](http://commons.wikimedia.org/wiki/Category:Tiled_stoves_in_art#mediaviewer/File:Auf_dem_Ofen_1895.jpg),
-a painting by Albert Anker, 1895***
+a painting by Albert Anker, 1895
 
 These ancient Eastern heating systems are somewhat reminiscent of the
 European tile stoves that appeared in the middle ages. Tile stoves (or
@@ -470,7 +463,7 @@ built-in platforms to sit or sleep on. Even if these platforms were not
 there, wooden benches were placed next to the stove so that one could
 lean against the warm (but not too hot) surface.
 
-Why We Also Need Modern Technology
+## Why We Also Need Modern Technology
 
 In conclusion, all historic heating systems used radiation and/or
 conduction as the primary modes of heat transfer, while convection was
@@ -480,8 +473,7 @@ fireplaces and carrying burning embers around the house. While the old
 concept of heating is more energy-efficient, the same cannot be said of
 most of the old heating devices.
 
-> While the old concept of heating is more energy efficient, the same
-> cannot be said of most of the old heating devices.
+> While the old concept of heating is more energy efficient, the same cannot be said of most of the old heating devices.
 
 Fireplaces, for one thing, are hugely inefficient, because most of the
 heat escapes through the chimney. They also suck in large amounts of
@@ -499,16 +491,13 @@ and hydronic radiant and conductive heating systems. These are more
 efficient, more practical, and safer than the heating sources of
 yesteryear. In the next two articles, we investigate [how the old way of
 warming can be improved upon by modern
-technology]({filename}/posts/radiant-and-conductive-heating-systems.md),
+technology](/2015/03/radiant-and-conductive-heating-systems/),
 and [how much energy could be
-saved]({filename}/posts/local-heating.md).
+saved](/2015/03/local-heating/).
 
-[Kris De Decker](http://www.krisdedecker.org) (edited by [Jenna
-Collett](http://click.typepad.com/api/click?format=go&jsonp=vglnk_jsonp_14040698156716&key=7626aa89b5cdca8c8b5ad715622cd669&libId=d1fdef94-0fb9-4ef4-84a2-1dd653356ab1&loc=http%3A%2F%2Fwww.lowtechmagazine.com%2F2014%2F06%2Fthermal-efficiency-cooking-stoves.html&v=1&out=https%3A%2F%2Fwww.linkedin.com%2Fpub%2Fjenna-collett%2F1a%2F925%2Fb3&ref=http%3A%2F%2Fwww.lowtechmagazine.com%2F&title=LOW-TECH%20MAGAZINE%3A%20Well-Tended%20Fires%20Outperform%20Modern%20Cooking%20Stoves&txt=Jenna%20Collett))
+Kris De Decker. Edited by Jenna Collett.
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-Sources (in order of importance):
+## Sources (in order of importance):
 
 -   [Stralingsverwarming: Gezonde Warmte met Minder
     Energie](http://www.eburon.nl/stralingsverwarming), Kris De Decker,
@@ -548,7 +537,7 @@ Sources (in order of importance):
     Home Things Past.
 -   [Körperwärmespender](http://www.koerper-waermespender.de/). Website.
 
-Related Articles
+## Related Articles
 
 -   [Radiant and Conductive Heating
     Systems]({filename}/posts/radiant-and-conductive-heating-systems.md)
@@ -564,5 +553,3 @@ Related Articles
     Fuels]({filename}/posts/solar-oriented-cities-1-the-solar-envelope.md)
 -   [Don't Heat your Room with Tea
     Candles](http://www.notechmagazine.com/2014/11/dont-heat-your-room-with-tea-candles.html)
-
-----------------------------------------------------------------------------------------------------------------------------------------------

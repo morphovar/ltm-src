@@ -1,12 +1,14 @@
 Title: The monster footprint of digital technology
-Date: 2009-06-16 16:53
+Date: 2009-06-16
 Author: Kris De Decker
 Category: High-tech Problems
-Tags: emergy embodied energy digital-technology microchips microprocessors gadgets manufacturing
+Tags: microchips
 Slug: embodied-energy-of-digital-technology
 Status: published
+Summary: FIXME
 
-
+![image](/images/monster-footprint-digital-technology.jpg)
+Artwork: [cityscape I & II by Grace Grothaus](http://gracegrothaus.com/).
 
 The power consumption of our high-tech machines and devices is hugely
 underestimated.
@@ -21,17 +23,8 @@ high-tech products, which are produced by means of extremely material-
 and energy-intensive manufacturing processes. How much energy do our
 high-tech gadgets really consume?
 
-Artwork: [cityscape I & II by Grace
-Grothaus](http://gracegrothaus.com/).
 
-<div>
 
-----------------------------------------------------------------------------------------------------------------------------------------------  
-  
-  
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-</div>
 
 The energy consumption of electronic devices is skyrocketing, as was
 recently reported by the International Energy Association ("[Gadgets and
@@ -40,9 +33,7 @@ to the research paper, the electricity consumption of computers, cell
 phones, flat screen TV's, iPods and other gadgets will double by 2022
 and triple by 2030. This comes down to the need for an additional 280
 gigawatts of power generation capacity. An earlier report from the
-British Energy Saving Trust ([The ampere strikes
-back](http://www.energysavingtrust.org.uk/Publication-Download/?p=4&pid=1085)
-- pdf) came to similar conclusions.
+British Energy Saving Trust ([The ampere strikes back](http://www.energysavingtrust.org.uk/Publication-Download/?p=4&pid=1085)- pdf) came to similar conclusions.
 
 There are multiple reasons for the growing energy consumption of
 electronic equipment; more and more people can buy gadgets, more and
@@ -53,7 +44,7 @@ paradox]({filename}/posts/led-light-cfl-b.md)
 [here]({filename}/posts/speed-energy.md)
 [before]({filename}/posts/the-right-to-35.md)).
 
-The 180 watt laptop
+## The 180 watt laptop
 
 While these reports are in themselves reason for concern, they hugely
 underestimate the energy use of electronic equipment. To start with,
@@ -73,7 +64,7 @@ and the [internet](http://www.greens.org/s-r/45/45-03.html) (which
 consists of server farms, routers, switches, optical equipment and the
 like).
 
-Embodied energy
+## Embodied energy
 
 Most important, however, is the energy required to manufacture all this
 electronic equipment (both network and, especially, consumer
@@ -88,7 +79,7 @@ refrigerator or the typical incandescent light bulb: the energy required
 to manufacture the product pales into insignificance when compared to
 the energy used during its operation.
 
-
+![image](/images/monster-footprint-grace.jpg)
 
 Advanced digital technology has turned this relationship upside down. A
 handful of microchips can have as much embodied energy as a car. And
@@ -99,7 +90,7 @@ devices are now full of microprocessors. Semiconductors (which form the
 energy-intensive basis of microchips) have also found their applications
 in ecotech products like solar panels and LEDs.
 
-Where are the figures?
+## Where are the figures?
 
 While it is fairly easy to obtain figures regarding the energy
 consumption of electronic devices during the use phase (you can even
@@ -112,16 +103,8 @@ materials and processing techniques involved. In the meantime, products
 and processing technologies keep evolving, with the result that most
 life cycle analyses are simply outdated when they are published.
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-The embodied energy of the memory chip alone already exceeds the energy
-consumption of a laptop during its life expectancy of 3 years
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
+> The embodied energy of the memory chip alone already exceeds the energy
+consumption of a laptop during its life expectancy of 3 years.
 
 For more recent and emerging technologies, life cycle analyses simply do
 not exist. Try looking for a research paper that calculates the embodied
@@ -129,7 +112,7 @@ energy of a Light Emitting Diode (LED), a lithium-ion battery or any
 device full of electronics meant to save energy: you won't find it (and
 if you do, please let me know).
 
-Embodied energy of a computer
+## Embodied energy of a computer
 
 The [most up-to-date life cycle analysis of a
 computer](http://ieeexplore.ieee.org/Xplore/login.jsp?url=http%3A%2F%2Fieeexplore.ieee.org%2Fiel5%2F9100%2F28876%2F01299692.pdf&authDecision=-203)
@@ -143,7 +126,7 @@ dominated by production (83% or 7,329 megajoule) as opposed to operation
 (17%). Similar figures were obtained for [mobile
 phones]({filename}/posts/the-right-to-35.md).
 
-
+![image](/images/circuitboard.jpg)
 
 While the 1990 computer was a desktop machine with a CRT-monitor, many
 of today's computers are laptops with an LCD-screen. At first sight,
@@ -154,7 +137,7 @@ metal and the glass that makes computers so energy-instensive to
 produce. It's the tiny microchips, and present-day computers have more
 of them, not less.
 
-100 years of manufacturing
+## 100 years of manufacturing
 
 The energy needed to manufacture microchips is disproportional to their
 size. MIT-researcher [Timothy
@@ -164,15 +147,7 @@ with those used in semiconductor and in nanomaterial production (a
 technology that is being developed for use in all kinds of products
 including electronics, solar panels, batteries and LEDs).
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-Digital technology is a product of cheap energy
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
+> Digital technology is a product of cheap energy
 
 As an example of more conventional manufacturing methods, Gutowski
 calculated the energy requirements of machining, injection molding and
@@ -183,7 +158,7 @@ of metal components, and machining is a material removing process that
 involves the cutting of metals (used both for creating and finishing
 products).
 
-6 orders of magnitude
+## 6 orders of magnitude
 
 While there are significant differences between configurations, all
 these manufacturing methods require between 1 and 10 megajoule of
@@ -204,7 +179,7 @@ This comes down to between 1,000 and 100,000 megajoules per kilogram of
 material, compared to 1 to 10 megajoules for conventional manufacturing
 techniques.
 
-
+![image](/images/energy-use-manufacturing.microchips.jpg)
 
 Manufacturing one kilogram of electronics or nanomaterials thus requires
 between 280 kilowatt-hours and 28 megawatt-hours of electricity; enough
@@ -212,7 +187,7 @@ to power a flat screen television continuously for 41 days to 114 years.
 These data do not include facility air handling and environmental
 conditioning, which for semiconductors can be substantial.
 
-Embodied energy of a microchip
+## Embodied energy of a microchip
 
 The energy consumption of semiconductor manufacturing techniques
 corresponds with a life cycle analysis of a "typical" [2 gram
@@ -237,7 +212,7 @@ of 1.9 kilowatt-hours per square centimetre of microchip, so 20
 kilowatt-hours per 2 gram, square centimetre computerchip seems to be a
 reasonable estimate.
 
-How many microchips in a computer?
+## How many microchips in a computer?
 
 A gadget or a computer does not contain one kilogram of semiconductors -
 far from that. But, we don't need a kilogram of microchips to ensure
@@ -252,7 +227,7 @@ embodied energy for the computer memory alone, or 360,000 to 720,000
 watt-hour. Enough to power a 30 watt laptop *non-stop* for 500 to 1,000
 days.
 
-
+![image](/images/memory-chip.jpg)
 
 Microprocessors (the "brains" of all digital devices) are more advanced
 than memory chips and thus contain at least as much embodied energy.
@@ -268,16 +243,8 @@ CPU-intensive processes (like running a virus scan, searching folders or
 burning a DVD) all at the same time, without a hitch. But with every
 extra chip (or chip surface) comes more embodied energy.
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-The energy savings realised by digital technology will merely absorb its
+> The energy savings realised by digital technology will merely absorb its
 own growing footprint.
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 Another trend is the rise of the "Graphics Processing Unit" or GPU. This
 is a specialised processor that offloads 3D graphics rendering from the
@@ -288,7 +255,7 @@ computer while in use (GPU's can consume more energy than current
 CPU's), but they also stand for more embodied energy. A GPU is very
 memory-intensive and thus also increases the need for more RAM-chips.
 
-Nanomaterials
+## Nanomaterials
 
 Why are microchips so energy-intensive to manufacture? One of the
 reasons becomes clear when you literally zoom in on the technology. A
@@ -298,7 +265,7 @@ billion transistors - each transistor less than 0.00007 millimetres
 wide. Magnify this circuit and it becomes a structure as complex as a
 sprawling metropolitan city.
 
-
+![image](/images/energy-use-microchips.jpg)
 
 The amount of materials embedded in the product might be small, but it
 takes a lot of processing (and thus machine energy use) to lay down a
@@ -318,16 +285,8 @@ destroy the circuit. For the same reason, the manufacture of microchips
 requires the purest silicon (Electronic Grade Silicon or EGS, provided
 by the energy-intensive CVD-process).
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-The manufacture of nanotubes is as energy-intensive as the manufacture
+> The manufacture of nanotubes is as energy-intensive as the manufacture
 of microchips.
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 Every 18 months the amount of transistors on a microchip doubles
 (Moore's law). On one hand, this means that less silicon is needed for a
@@ -336,7 +295,7 @@ transistors become smaller, you need even more effective air filtration
 and purer silicon. Since the structure also becomes more complex, you
 need more processing steps.
 
-
+![image](/images/grace-gothaus-microchip.jpg)
 
 [Nanotechnology]({filename}/posts/nanotechnolog-1.md)
 operates on an even smaller scale than micro-electronics, but its energy
@@ -349,7 +308,7 @@ nanotubes is thus as energy-intensive as the manufacture of microchips
 (36,000 MJ). Many of the large-scale applications proposed for nanotubes
 will simply not be possible because of energy requirements.
 
-Recycling is no solution
+## Recycling is no solution
 
 Encouraging recycling is often proposed as a way to lower the embodied
 energy of products. Unfortunately, this does not work for
@@ -368,16 +327,8 @@ quite benign compared to materials extraction and primary processing (in
 the order of 100 MJ/kg - [see
 table](http://www.lowtechmagazine.com/what-is-the-embodied-energy-of-materials.html)).
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-Recycling is not a solution if all your energy use is concentrated in
+> Recycling is not a solution if all your energy use is concentrated in
 the manufacturing process itself.
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 In the case of semiconductor manufacturing, this relation is reversed.
 While it takes 230 to 235 MJ of energy to produce 1 kilogram of silicon
@@ -393,12 +344,10 @@ overall energy use during manufacture. In the case of semiconductors, it
 is not. Recycling is not a solution for energy consumption if all your
 energy use is concentrated in the process itself.
 
-
+![image](/images/circuit-board-3.jpg)
 
 This does not mean that the manufacture of microchips does not require
-materials. In fact, producing microchips and nanomaterials is also more intensive than the manufacture of conventional products, by
-the same orders of magnitude. However, this concerns auxiliary materials
-which are not incorporated into the product.
+materials. In fact, producing microchips and nanomaterials is also more intensive than the manufacture of conventional products, by the same orders of magnitude. However, this concerns auxiliary materials which are not incorporated into the product.
 
 For example, the embodied energy of the input cleaning gases in the CVD
 process (not included in the figures above) is more than 4 orders of
@@ -408,7 +357,7 @@ attendant pollution. Gutowski writes: "If this is done using point of
 use combustion with methane, the embodied energy of the methane alone
 can exceed the electricity input."
 
-The benefits of digital technology
+## The benefits of digital technology
 
 Microchips also have positive effects on the environment, by making
 other activities and processes more efficient. This is the subject of a
@@ -429,16 +378,8 @@ efficiency that it has done previously". By enabling energy efficiencies
 in other sectors, however, ICT could deliver carbon savings 5 times
 larger: 7.8 Gt CO2-equivalents in 2020.
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-<div>
-
-Addressing technological obsolescence would be the most powerful
+> Addressing technological obsolescence would be the most powerful
 approach to lower the ecological footprint of digital technology
-
-</div>
-
-----------------------------------------------------------------------------------------------------------------------------------------------
 
 These benefits are smart grids (2.03 Gt), smart buildings (1.86 Gt),
 smart motor systems (970 Mt), dematerialisation and substitution (by
@@ -454,7 +395,7 @@ enabled by the smart integration of ICT into new ways of operating
 living, working, learning and travelling, makes the sector a key player
 in the fight against climate change, despite its own growing footprint."
 
-
+![image](/images/circuit-board-cityscape.jpg)
 
 But even if we assume that all these savings will materialise (the
 report acknowledges that this will not be an easy task), this conclusion
@@ -466,7 +407,7 @@ Gt - almost as much as the 7.8 Gt that will be saved by ICT. No
 environmental benefit would appear and the energy savings realised by
 digital technology would merely absorb its own growing footprint.
 
-Digital technology is a product of cheap energy
+## Digital technology is a product of cheap energy
 
 The research of Timothy Gutowski shows that the historical trend is
 toward more and more energy intensive processes. At the same time,
@@ -474,11 +415,11 @@ energy resources are declining.
 
 Gutowski writes:
 
-*"This phenomenon has been enabled by stable and declining material and
+"This phenomenon has been enabled by stable and declining material and
 energy prices over this period. The seemingly extravagant use of
 materials and energy resources by many newer manufacturing processes is
 alarming and needs to be addressed alongside claims of improved
-sustainability from products manufactured by these means."*
+sustainability from products manufactured by these means."
 
 Production techniques for semiconductors and nanomaterials can and will
 become more efficient, by lowering the energy requirements of the
@@ -491,7 +432,7 @@ consumption](http://www.itrs.net/Links/2007ITRS/2007_Chapters/2007_ESH.pdf)
 (pdf) per square centimetre of microchip from 1.9 kWh today to 1.6 kWh
 in 2012, 1.35 kWh in 2015, 1.20 kWh in 2018 and 1.10 kWh in 2022.
 
-
+![image](/images/circuit-board-city-scape-4.jpg)
 
 But as these figures show, improving efficiency has its limits. The
 gains will become smaller over time, and improving efficiency alone will
@@ -501,9 +442,13 @@ know it.
 
 The ITRS-report warns that:
 
+"Limitations on sources of energy could potentially limit the industry's ability to expand existing facilities or build new ones".
+
 Gutowski writes:
 
-Technological obsolescence
+"It should be pointed out that there is also a need for completely rethinking each of these processes and exploring alternative, and probably non-vapour-phase processes".
+
+## Technological obsolescence
 
 The ecological footprint of digital technology described above is far
 from complete. This article focuses exclusively on energy use and does
@@ -538,11 +483,7 @@ Grothaus](http://www.gracegrothaus.com/) (the works are for sale). More
 information on [manufacturing
 methods](http://web.mit.edu/ebm/www/publications.htm).
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-Related articles:
-
-
+## Related Articles:
 
 -   [How sustainable is digital
     fabrication?]({filename}/posts/how-sustainable-is-digital-fabrication.md)
@@ -559,13 +500,3 @@ Related articles:
     unplugged]({filename}/posts/gaming-unplugge.md)
 -   [Bike powered electricity generators are not
     sustainable]({filename}/posts/bike-powered-electricity-generators.md)
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-  
-
-  
-
-  
-
-----------------------------------------------------------------------------------------------------------------------------------------------

@@ -1,6 +1,6 @@
 Title: Aerial Ropeways: Automatic Cargo Transport for a Bargain 
 Date: 2011-01-26
-Category: Low-tech Solutions
+Category: Obsolete Technology
 Tags: aerial ropeways, aerial tramways, cableways, ropeways
 Slug: aerial-ropeways-automatic-cargo-transport 
 Summary: Cargo tramways can be fully or partly powered by gravity, and some deliver excess power that can be utilized to generate electricity or to drive cranes or machinery in nearby factories

@@ -7,12 +7,11 @@ Summary: Matching supply to demand at all times makes renewable power production
 Status: published
 
 ![image sailboat](/images/sailboat2.jpg)
+Image: [Eye of the wind](https://www.eyeofthewind.net/en/)
 
 While the potential of wind and solar energy is more than sufficient to supply the electricity demand of industrial societies, these resources are only available intermittently. To ensure that supply always meets demand, a renewable power grid needs an oversized power generation and transmission capacity of up to ten times the peak demand. It also requires a balancing capacity of fossil fuel power plants, or its equivalent in energy storage.
 
 Consequently, matching supply to demand at all times makes renewable power production a complex, slow, expensive and unsustainable undertaking. Yet, if we would adjust energy demand to the variable supply of solar and wind energy, a renewable power grid could be much more advantageous. Using wind and solar energy only when they're available is a traditional concept that modern technology can improve upon significantly.
-
-Image: [Eye of the wind](https://www.eyeofthewind.net/en/)
 
 ## 100% Renewable Energy
 

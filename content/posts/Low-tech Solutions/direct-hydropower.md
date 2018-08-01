@@ -4,9 +4,12 @@ Author: Kris De Decker
 Category: Low-tech Solutions
 Tags: direct hydropower, hydropower, micro hydro, pelton turbine, pelton wheel, small hydro, water power
 Slug: direct-hydropower
+Summary: The hydro power installations in use today are less energy efficient than those of earlier centuries.
 Status: published
 
-
+![image](/images/direct-hydropower-1.png)
+Picture: Direct Hydro Power Coffee Depulper. Picture: [Brian W.
+Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
 
 All hydropower plants today produce electricity. Transforming energy to
 electricity seems to be the only way to harness water power, but it is
@@ -21,47 +24,41 @@ The higher efficiency of this approach means that less water is needed
 to produce a given amount of energy. This lowers the cost of hydropower
 and enables power to be produced by the use of very small streams.
 
-Picture: Direct Hydro Power Coffee Depulper. Picture: [Brian W.
-Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
-
-> The hydro power installations in use today are actually less efficient
-> than those of earlier centuries
-
-  
+> The hydro power installations in use today are actually less efficient than those of earlier centuries
 
 Throughout the course of history, the efficiency of water powered prime
 movers has steadily increased. Wooden water wheels, which appeared more
 than 2,000 years ago, converted a relatively small amount of water
 energy into mechanical power: The efficiency was 5 to 15% for an
 horizontal water wheel, 20 to 30% for a vertical undershot water wheel,
-and 50 to 60% for a vertical overshot water wheel. \[1\]
+and 50 to 60% for a vertical overshot water wheel. [^1]
 
 Iron water wheels, which appeared in the late 18th century, had improved
-the efficiency rating of the vertical overshot wheel to 65 to 85%. \[1\]
+the efficiency rating of the vertical overshot wheel to 65 to 85%. [^1]
 Water turbines, which were developed in the 19th century, and which are
 the water-powered prime movers that we still use today, generally
 convert over 85% of the kinetic energy inherent to the water source into
-mechanical power at the shaft of the turbine. \[2\] Water turbines are
-ten to twenty times more compact than water wheels for the same power
+mechanical power at the shaft of the turbine. [^2] 
+
+Water turbines are ten to twenty times more compact than water wheels for the same power
 output, an advantage that led to much cheaper and much more powerful
 prime movers. Turbines are more widely applicable than water wheels,
 because water wheels could not make efficient use of any head of water
 (the vertical distance travelled by the water) much greater than their
-own diameter. \[1\]
+own diameter. [^1]
 
-Why Modern Hydro Power is Less Efficient
+## Why Modern Hydro Power is Less Efficient
 
 In spite of these significant improvements, hydropower installations
 today are actually *less* efficient than those from earlier centuries.
 The culprit is electricity. Not long after the introduction of the water
-turbine, another change occured: Instead of using water-powered prime
+turbine, another change occured. Instead of using water-powered prime
 movers to run machinery *directly* (as had been the case for centuries),
 water turbines were (and still are) used to generate electricity. This
 modern approach has introduced an energy deficit that has nullified any
 progress behind hydropower design efficiency.
 
-
-
+![image](/images/hydro-powered-coffee-depulper-1.jpg)
 Direct Hydro Power Coffee Depulper. Picture: [Brian W.
 Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
 
@@ -70,7 +67,9 @@ in the moving water into rotational energy at its shaft, which is then
 converted into electrical energy by the generator that is coupled to the
 turbine. Next, the electrical energy is converted back into rotational
 energy by the electric motor of the machine that is being powered. Every
-energy conversion introduces energy loss. This loss of energy occurs due
+energy conversion introduces energy loss. 
+
+This loss of energy occurs due
 to friction, which is observable as heat, vibration and noise. Friction
 occurs at all levels of electrical transmission: In the turbine, the
 generator, and the motor. Additional components such as batteries, drive
@@ -80,11 +79,8 @@ It is possible to calculate the efficiency rating for each modern
 hydropower unit by measuring the difference between turbine input and
 electric generator output. A home-sized hydropower plant generating AC
 electric power has a "water-to-wire" energy transfer of at best 60 to 70
-percent.
-\[[3](http://www.homepower.com/articles/intro-hydropower-part-3)\]
-Smaller DC electric systems, which require inverters and generally have
-battery banks, have lower efficiencies of 40 to 60 percent.
-\[[3](http://www.homepower.com/articles/intro-hydropower-part-3)\]
+percent. Smaller DC electric systems, which require inverters and generally have
+battery banks, have lower efficiencies of 40 to 60 percent. [^3]
 
 Energy loss in the electric motors of the devices being powered is not
 included but should also be considered ("water-to-motor" efficiency).
@@ -93,21 +89,21 @@ for small motors to more than 95% for large motors. On average, a
 hydro-electric power installation only converts about half of the energy
 available in water into useful work.
 
-> A direct hydropowered coffee depulper in Nicaragua has been performing
-> flawlessly through five harvests
+> A direct hydropowered coffee depulper in Nicaragua has been performing flawlessly through five harvests
 
 This means that a small, modern hydropower plant has a similar
 efficiency rating to a centuries old configuration using a wooden
 vertical overshot water wheel (50-60%), and that this modern counterpart
 is considerably *less* efficient than the iron water wheels of the 18th
-century (65-85%). In an old fashioned hydropower installation, there was
+century (65-85%). 
+
+In an old fashioned hydropower installation, there was
 only one conversion of energy; A water wheel converted the energy
 inherent to the water source into rotational energy at its shaft. The
 same shaft also moved the machinery, so that the only source of
-significant energy loss occured in the water wheel itself. \[4\]
+significant energy loss occured in the water wheel itself. [^4]
 
-
-
+![image](/images/direct-hydro-coffee-depulper-3.jpg)
 Direct Hydro Power Coffee Depulper. Picture: [Brian W.
 Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
 
@@ -119,7 +115,7 @@ The energy losses in the pipeline are the same for hydroelectric and
 direct hydropower installations. Therefore, for the purposes of our
 comparison, these power losses can be overlooked.
 
-Why Direct Hydropower Makes Sense
+## Why Direct Hydropower Makes Sense
 
 There is one possible hydropower configuration in particular that
 deserves considerable attention: a water turbine directly powering
@@ -127,7 +123,7 @@ machinery, without the intermediate step of generating electricity.
 Depending on the type of turbine used in such a system, the value that
 corresponds to the "water-to-motor" efficiency is roughly 80 to 95%. The
 implementation of this form of direct hydropower doubles the
-effectiveness of a small scale electric hydropower installation. \[4\]
+effectiveness of a small scale electric hydropower installation. [^4]
 
 The higher efficiency of direct hydropower brings important advantages.
 If the intermediate step of generating electricity is bypassed,
@@ -150,8 +146,7 @@ diameter penstocks common to electric hydropower plants. The flexible
 connections between the pressure pipe and turbine also simplify
 installation.
 
-
-
+![image](/images/hydro-powered-coffee-depulper-4.jpg)
 Picture: Direct Hydro Power Coffee Depulper. Source: [Brian W.
 Raichle](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
 
@@ -162,7 +157,7 @@ environmentally sound microhydropower production. This type of
 ecological sustainability is easier to achieve with direct hydropower
 because less water is required.
 
-Old-School Approach, Modern Materials
+## Old-School Approach, Modern Materials
 
 Many NGO's are [introducing small hydropower systems in the developing
 world](http://www.ashden.org/micro-hydro). Almost all of them are aimed
@@ -172,10 +167,9 @@ in the US designed, built and installed a direct hydropowered coffee
 depulper in Nicaragua. According to [a recent
 study](http://www.sciencedirect.com/science/article/pii/S0973082612000634)
 in *Energy for sustainable development*, it has "performed flawlessly
-through five harvests". \[5\]
+through five harvests". [^5]
 
-> Because less water is needed to produce a given amount of power, all
-> components of the system are reduced in size and cost
+> Because less water is needed to produce a given amount of power, all components of the system are reduced in size and cost
 
 Much of the necessary energy for coffee harvesting and processing is
 provided by manual labour. One of the most tedious, labour intensive
@@ -184,8 +178,7 @@ process was restricted to a hand cranked machine, and would take all
 night to complete. Now, with the help of direct hydropower technologies,
 the depulping can be completed in two or three hours.
 
-
-
+![image](/images/direct-hydro-turbine.jpg)
 The bronze runner of the Watermotor model 150. Picture: [Campo
 Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&type=3).
 
@@ -200,7 +193,7 @@ power, so that direct hydropower is at least twice as economically
 viable as a hydroelectric operation with the same rate of energy
 production.
 
-Precise Control
+## Precise Control
 
 The turbine used by the direct hydropowered coffee depulper is a
 commercially available *Water Motor model 90* from [*Campo
@@ -212,8 +205,7 @@ power into mechanical power at 80 to 85% efficiency. It is suited for
 moderate to high head systems. The larger model 150 has a 15 cm diameter
 runner and produces about three times as much power.
 
-
-
+![image](/image/water-motor.jpg)
 The Campo Nuevo Watermotor model 150. Picture: [Campo
 Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&type=3).
 
@@ -230,8 +222,7 @@ velocity jets of water. A manifold separates the water flow into four
 smaller tubes, with each stream leading to one of the four jets driving
 the turbine wheel.
 
-
-
+![image](/images/water-motor-in-casing.jpg)
 The Campo Nuevo Watermotor in its casing. Picture: [Campo
 Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&type=3).
 
@@ -241,7 +232,7 @@ Furthermore, the jets can be adjusted to various sizes. This mechanism
 makes it possible to precisely measure and adjust the power output of
 the motor and cater to seasonal variations in water flow.
 
-Direct Hydropowered Woodworking Unit
+## Direct Hydropowered Woodworking Unit
 
 At the *Campo Nuevo* demonstration site in the Andes, the water motor
 runs a large variety of machines, including a [small woodworking
@@ -253,10 +244,9 @@ batteries for lighting and other purposes. The water motor can also
 operate an air compressor to run air-powered tools. (In principle, it
 could also run [a compressor from a
 refrigerator](http://www.flickr.com/photos/13080477@N08/1498486336/sizes/l/in/set-72157603355180063/)).
-\[6\]
+[^6]
 
-> A small storage tank makes it possible to run even more powerful
-> machines
+> A small storage tank makes it possible to run even more powerful machines
 
 The water motor on the demonstration site delivers power similar to a
 0.75 horse power (560 watt) electric motor at 1,450 rpm using a stream
@@ -272,8 +262,7 @@ installed, measuring 2 x 2 x 1.5 m. It allows the table saw to run for
 15 minutes continuously. This additional power output adds up over two
 hours of operating time over the course of a ten hour workday.
 
-
-
+![image](/images/water-motor-running-table-saw.jpg)
 A set-up of a water motor running a table saw and generator. Picture:
 [Campo
 Nuevo](https://www.facebook.com/media/set/?set=a.294347793935906.63549.294293947274624&type=3).
@@ -290,6 +279,7 @@ depulper in Nicaragua, which was described above. Coffee beans are
 harvested from December through February, and they must be depulped
 within 24 hours of picking. This processing constraint means that the
 depulper is only used at night for a small fraction of the year.
+
 Therefore, the direct hydropower installation is often available for
 other applications (such as running a saw, a drill, an air compressor,
 or an electric generator). Although the turbine that powers the coffee
@@ -297,7 +287,7 @@ depulper can provide up to 800 watts of mechanical power, the coffee
 depulper itself uses only one fourth of that waterpower and one jet to
 deliver 200 watts for its operation.
 
-Upgrading Medieval Water Mills
+## Upgrading Medieval Water Mills
 
 Will we see a rebirth of direct hydro power? Maybe, but the fact remains
 that this form of energy production has never disappeared. In some
@@ -316,8 +306,7 @@ mills. The improved water wheels can grind grain more efficiently and
 have longer lifespans, which allows them to compete better with diesel
 powered mills.
 
-
-
+![image](/images/improved-water-mill.jpg)
 CRT/N have increased the efficiency of water mills in Nepal by replacing
 wooden runners with precision-made metal ones. Picture:
 [CRT/N](http://www.crtnepal.org/).
@@ -330,9 +319,7 @@ metal parts. The wooden penstock that delivers water to the mills is
 replaced by a high density polyethylene pipe which reduces leakage and
 other avoidable problems.
 
-> In Nepal, an NGO has upgraded more than 5,000 still operating all
-> wooden water mills to nineteenth-century standards, doubling their
-> efficiency and allowing them to compete with diesel power
+> In Nepal, an NGO has upgraded more than 5,000 still operating all wooden water mills to nineteenth-century standards, doubling their efficiency and allowing them to compete with diesel power
 
 CRT/N calls its technology the [Improved Water
 Mill](http://www.crtnepal.org/?option=technology&tid=3232313031) (IWM).
@@ -342,7 +329,7 @@ introduced at the beginning of this article. The higher efficiency makes
 that less water is needed and that the mills can operate for longer
 periods of the year.
 
-Replacing Diesel Engines
+## Replacing Diesel Engines
 
 The NGO has upgraded 5,700 water mills from 1990 to 2009. Some of these
 upgrades (237 to be precise) also involved adapting water mills so that
@@ -353,8 +340,7 @@ from the millstones. Instead of connecting to the millstones, the
 grinding shaft operates from the long shaft using a belt drive, allowing
 other machines to be operated by direct hydropower.
 
-
-
+![image](/images/improved-water-mill-4.jpg)
 With a long-shaft attachment, several machines such as a rice-huller can
 be run from a mill. Picture: [CRT/N](http://www.crtnepal.org/).
 
@@ -376,7 +362,7 @@ upgraded mills at a cost of \$200 each), and by
 [SITMo](http://www.ashden.org/winners/sitmo) in the Philippines (as part
 of a mostly electric hydro scheme).
 
-The best of both worlds
+## The best of both worlds
 
 This plea for direct hydro does not imply that we should stop using
 electricity. Some things cannot be powered by mechanical energy, most
@@ -400,24 +386,20 @@ motors]({filename}/posts/power-from-the-tap-water-motors.md).
 
 Kris De Decker (edited by Caylen Cole-Hazel)
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-Notes & Sources
-
-\[1\] *[Stronger than a Hundred Men: A History of the Vertical Water
+[^1]: *[Stronger than a Hundred Men: A History of the Vertical Water
 Wheel (Johns Hopkins Studies in the History of
 Technology)](http://www.amazon.com/gp/product/0801872480/ref=as_li_qf_sp_asin_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0801872480&linkCode=as2&tag=lowtemagaz-20)![](http://ir-na.amazon-adsystem.com/e/ir?t=lowtemagaz-20&l=as2&o=1&a=0801872480){width="1"
 height="1"}*, Terry S. Reynolds, 1983. See pages 106, 306-307, and
 342-349.
 
-\[2\] The efficiency of a water turbine depends on the type of turbine
+[^2]: The efficiency of a water turbine depends on the type of turbine
 used. There are many types of turbines available, and each one is aimed
 at specific combinations of head and water flow. For small-scale hydro
 applications, a minimum efficiency of 80-85% can be achieved in any
 situation. Pelton turbines are up to 90% efficient and large turbines
 can be over 95% efficient.
 
-\[3\] [*Intro to
+[^3]: [*Intro to
 Hydropower*](http://www.homepower.com/articles/intro-hydropower-part-3),
 Home Power Magazine, 2012. Another source is the [*Fact Sheet
 MicroHydro*](http://appropriatetec.appstate.edu/sites/appropriatetec.appstate.edu/files/microhydro_factsheet6.pdf)
@@ -429,7 +411,7 @@ However, in practice actual power output may be as low as 30% of gross
 input power for very small installations and as high as 70% for larger
 schemes."
 
-\[4\] To this should be added the energy loss in the drive train, which
+[^4]: To this should be added the energy loss in the drive train, which
 is needed to match the rotational speed of the prime mover with that of
 the machine being powered. This loss has been included in the efficiency
 results of modern hydro power installations, where a drive system is
@@ -447,20 +429,16 @@ Turbines operating slow-rotating machines will need gearing to step down
 the speed. If the connection is made by a single gear, chain or belt,
 the drive train can be up to 99% efficient.
 
-\[5\] [*Design and Construction of a Direct Hydro Powered Coffee
+[^5]: [*Design and Construction of a Direct Hydro Powered Coffee
 Depulper*](http://www.sciencedirect.com/science/article/pii/S0973082612000634),
 Energy for Sustainable Development 16 (2012) 401-405. Brian W. Raichle,
 Raymond S. Sinclair, Jeremy C. Ferrell.
 
-\[6\] [*Water Power in the Andes. Yesterday's Solution for Today's
+[^6]: [*Water Power in the Andes. Yesterday's Solution for Today's
 Needs*](http://ps-survival.com/PS/Hydro-Power/Water_Motor_In_Bolivia_Runs_Table_Saw_Home_Power_Magazine_2004.pdf),
 Ron Davis, 1999
 
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-### Related Articles
+## Related Articles
 
 The use of direct mechanical energy can also be useful for pedal power
 and wind power. The use of direct thermal energy can be useful for solar

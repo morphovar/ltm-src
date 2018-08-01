@@ -103,8 +103,6 @@ hulls.
 
 ![image](/images/XYZ-cargo-bike-2.jpg)
 
-![image](/images/)
-
 ![image](/images/XYZ-cargo-bike-3.jpg)
 The XYZ Cargo Bike.
 

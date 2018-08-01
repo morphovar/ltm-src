@@ -1,12 +1,14 @@
 Title: Bring back the horses
-Date: 2008-04-18 19:55
+Date: 2008-04-18
 Author: Kris De Decker
 Category: Low-tech Solutions
 Tags: agriculture, animal power, draft horses, farming, horses, horses in agriculture, tractors
 Slug: horses-agricult
+Summary: Replacing tractors with real horse power could be the revolution that
+agriculture needs.
 Status: published
 
-
+![image](/images/horse.jpg)
 Replacing tractors with real horse power could be the revolution that
 agriculture needs.
 
@@ -21,12 +23,8 @@ noisy, dangerous and polluting, but mounts are even worse. In
 agriculture, however, animal power would bring surprisingly large
 environmental profits.
 
-<div>
-
-> "Replacing tractors with horses does not mean going back to the middle
-> ages, nor does it exclude heavy machinery, high yields or high-tech"
-
-</div>
+> Replacing tractors with horses does not mean going back to the middle
+> ages, nor does it exclude heavy machinery, high yields or high-tech
 
 For several thousands of years, horses, donkeys, mules, oxen, camels,
 buffaloes, llamas and elephants were the only means of transportation,
@@ -46,7 +44,7 @@ growing human population in cities was [transported by horse cabs,
 omnibuses and
 trams](http://findarticles.com/p/articles/mi_qa3884/is_200509/ai_n15613227).
 
-
+![image](/images/horse-tramway.jpg)
 
 In 1890, there were an estimated 300,000 horses in London, which at that
 time had a human population of around 4.5 million (or 1 horse for every
@@ -59,8 +57,7 @@ animals worked in shifts. Still, at the end of the nineteenth century,
 the horse population in cities like London and New York became so large
 that health problems emerged.
 
-Dung in the City
-----------------
+## Dung in the City
 
 In 1880, the 12,500 horses in a small city like Milwaukee (then 350,000
 people) produced 133 tonnes of manure each day – more than 10 kilograms
@@ -70,7 +67,7 @@ substantial amount landed on the paving-stones. On dry days, the muck
 became dust that stuck to people’s faces and clothes. On rainy days,
 streets were transformed in open sewers.
 
-
+![image](/images/horse-traffic.jpg)
 
 Apart from pollution, thousands of iron horseshoes and wheels must have
 made a terrible racket, and traffic accidents were no less frequent than
@@ -80,7 +77,7 @@ people or goods (sometimes with weights of over ten tons) on dirty and
 slippery cobble-stones was so exhausting that most animals dropped dead
 after just a few years of work.
 
-> "Tractors don't reproduce, and they don't fertilize the soil"
+> Tractors don't reproduce, and they don't fertilize the soil
 
 While using pack and draft animals for long distance travel might not be
 such a bad idea (at least it’s good to know that the end of oil does not
@@ -89,11 +86,9 @@ or other animals in city traffic would be plain crazy. However, the
 principal reason why horse power is unsuited for city traffic - dung -
 turns out to be a very interesting quality when it comes to agriculture.
 
-Horses in Agriculture
----------------------
+## Horses in Agriculture
 
-
-tractors with horses would be a good move since horse manure is a
+Replacing tractors with horses would be a good move since horse manure is a
 perfect [fertilizer for agricultural
 soil]({filename}/posts/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming.md).
 Since tractors don’t produce excrements, fertilizers have to come from
@@ -103,6 +98,7 @@ takes additional fossil fuels to fertilize the soil – for transporting
 animal manure to the fields, or for manufacturing fossil fuel based
 fertilizers (and transporting them too).
 
+![image](/images/tractor.jpg)
 
 Horses have more advantages over tractors. They reproduce themselves,
 while tractors don’t. That means more oil saved, and other resources
@@ -120,25 +116,21 @@ worth mentioning (contrary to ruminants like cows) and they don’t
 pollute the air. Horses might be the solution that [agriculture
 needs](http://news.bbc.co.uk/2/hi/europe/7348728.stm).
 
-Fodder or Diesel
-----------------
+## Fodder or Diesel
 
 Of course, horses need energy too. No fossil energy, but food. This
 means that replacing tractors with horses would raise the need for
 additional agricultural land to grow feed for the animals (land that in
-turn has to be cultivated by extra horses). Tractors could derive their
+turn has to be cultivated by extra horses). 
+
+Tractors could derive their
 fuel from agricultural land, too, if we turn food crops into bio-diesel
 or ethanol. Therefore, to know whether it is a useful strategy to
 replace tractors by horses, we have to know how many extra acres would
 be needed to feed the horses, and how many acres would be needed to
 “feed” the tractors.
 
-<div>
-
-> "Powering agriculture with tractors requires almost 2.5 times as much
-> (bio)energy than powering agriculture with horses"
-
-</div>
+> "Powering agriculture with tractors requires almost 2.5 times as much (bio)energy than powering agriculture with horses"
 
 This
 [calculation](http://www.landinstitute.org/vnews/display.v/ART/2000/12/15/3a3a508a9)
@@ -156,8 +148,7 @@ of farms had a tractor), as well as the amount of horses operated in
 need 23 million horses to cultivate the present 147 million hectares of
 farmland.
 
-Tractor versus horse
---------------------
+## Tractor versus horse
 
 Taking into account the annual feeds for work horses (1,300 kg of corn
 grain, 1,600 kg of alfalfa and 500 kg of harvested roughage) and the
@@ -168,14 +159,7 @@ tractors with crops, 7.4 million hectares of agricultural land is
 needed, or 5 percent of cropland, which makes tractors slightly more
 efficient than horses.
 
-+-----------------------------------------------------------------------+
-| ![Horse\_agriculture\_drawing](http://www.lowtechmagazine.com/images/ |
-| 2008/08/05/horse_agriculture_drawing.jpg "Horse_agriculture_drawing") |
-| {width="500"                                                          |
-| height="184"}                                                         |
-|                                                                       |
-| [](http://www.flickr.com/photos/taffeta/2297419362/)                  |
-+-----------------------------------------------------------------------+
+![image](/images/horse-in-agriculture.jpg)
 
 To make a fair comparison, however, it should also be taken into account
 that horses make their own fertilizer without any extra energy input and
@@ -194,12 +178,7 @@ cropland. Conclusion: when everything is taken into account, powering
 agriculture with tractors requires almost 2.5 times more energy than
 powering agriculture with horses.
 
-+-----------------------------------------------------------------------+
-| ![Tractor\_horse\_agriculture\_drawing](http://www.lowtechmagazine.co |
-| m/images/2008/08/05/tractor_horse_agriculture_drawing.jpg "Tractor_ho |
-| rse_agriculture_drawing"){width="500"                                 |
-| height="176"}                                                         |
-+-----------------------------------------------------------------------+
+![image](/images/tractor-vs-horse.jpg)
 
 A [Swedish
 study](http://www.sciencedirect.com/science?_ob=ArticleURL&_udi=B6VFB-45G03BY-1&_user=10&_rdoc=1&_fmt=&_orig=search&_sort=d&view=c&_acct=C000050221&_version=1&_urlVersion=0&_userid=10&md5=83f4a9fd3efde34433c305c08f6e82eb)
@@ -212,8 +191,7 @@ to 1981, while total agricultural production in 1981 was only 2.4 times
 that in 1927. Find a link to the full pdf of the Swedish studies
 [here](http://www.elements.nb.ca/extra/horsetractor.pdf).
 
-High-tech Horses
-----------------
+## High-tech Horses
 
 Replacing tractors with horses is not without challenges, though. First
 of all, there are not enough horses or other draft animals around.
@@ -230,11 +208,9 @@ animals are needed. Even if in theory any weight can be pulled by adding
 more and more light horses, in practice horse spans that are too large
 become unmanageable.
 
-> "Encouraging people to watch a horse's ass instead of a computer
-> screen might prove difficult"
+> "Encouraging people to watch a horse's ass instead of a computer screen might prove difficult"
 
-
-are not as low-tech and natural as they seem to be. Heavy work horses
+Horses are not as low-tech and natural as they seem to be. Heavy work horses
 like the Percheron *(picture left)*, the Belgian, the Shire or the
 Clydesdale are the result of centuries of cross-breeding by man.
 Unfortunately, these breeds are not doing so well.
@@ -244,14 +220,15 @@ breeds of work horses were on the brink of extinction. Their numbers
 have risen again, but the population is still small enough to make them
 vulnerable to genetic deviations.
 
+![image](/images/percheron.jpg)
+
 Furthermore, most of them are now bred for their looks only, and these
 characteristics do not always correspond with agricultural needs or even
 a good health. If draft horses become extinct, it would take many
 centuries to get them back on the scene (horse 'technology' deteriorated
 before, after the decline of the ancient empires).
 
-Man Power
----------
+## Man Power
 
 Even if we can breed enough work horses, agriculture would have to
 change. The advantages of a tractor are speed and convenience. It is
@@ -270,7 +247,7 @@ work in agriculture – while today, in industrialized countries, almost
 nobody works on the field anymore. Encouraging people to watch a horse's
 ass instead of a computer screen might prove difficult.
 
-
+![image](/images/forty-horses.jpg)
 
 On the other hand, putting tractors in the stable does not mean going
 back to the middle ages, and it does not exclude heavy machinery, high
@@ -282,8 +259,7 @@ was too heavy for oxen. These machines required much more animal power,
 but they increased yields and decreased the need for man power
 substantially. Without tractors.
 
-Lightweight Machinery
----------------------
+## Lightweight Machinery
 
 In the US in the second half of the 19th century, you could see 12-meter
 wide and 15-ton heavy harvesting machines pulled by spans of [up to 40
@@ -306,46 +282,3 @@ Updates :
 
 2\. Excellent article on the [history of
 horsecars](http://www.americanheritage.com/articles/magazine/it/1992/1/1992_1_40.shtml).
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-  ------------------------------------------------------------------------
-    
-   
-   
- ------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-Related articles :
-
-
-
-[A history of
-sh\*t]({filename}/posts/recycling-animal-and-human-dung-is-the-key-to-sustainable-farming.md):
-recycling animal and human dung is the key to sustainable farming
-
-[Human powered cranes and lifting
-devices]({filename}/posts/history-of-human-powered-cranes.md)
-: the sky is the limit
-
-[Ecotech from the
-1940s]({filename}/posts/citroen-2cv.md) : the
-Citroën 2CV
-
-[The Museum of Old
-Techniques]({filename}/posts/the-museum-of-old-techniques.md)
-: historical alternatives to modern day machinery
-
-[How to downsize a transport
-network]({filename}/posts/the-chinese-wheelbarrow.md):
-the Chinese wheelbarrow
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-  
-
-  
-
-  
-
