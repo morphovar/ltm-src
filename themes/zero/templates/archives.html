@@ -25,7 +25,7 @@
 
 <ul>
 {% for article in dates %}
-    <li><article>
+    <li class = "{{article.category|lower|truncate(3,True, '')}}"><article>
             <time class="published" datetime="{{ article.date.isoformat() }}">{{ article.date|strftime('%B %Y')}}</time>
             <div class="entry-title"><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></div>
             <div class="category {{ article.category}}"><a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a> </div>

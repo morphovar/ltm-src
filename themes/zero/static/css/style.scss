@@ -6,7 +6,7 @@
 */
 
 $color: black;
-$color_2: gray;
+$color_2: #adadad;
 $color_low: #0000e0;
 $color_hig: #ec0f00;
 $color_obs: #007d46;
@@ -271,9 +271,10 @@ ARTICLE TYPOGRAPHY
 	}
 }
 p.summary {
-	font-size: 1.3rem;
+	font-size: 1.5rem;
 	text-indent: 0;
 	margin-top: 0.5*$pad;
+	line-height: 1.1;
 }
 blockquote {
 	p {
@@ -429,7 +430,15 @@ address {
 /*
 MEDIA QUERIES
 */
+@media screen and (max-width: 1000px) {
+	#post-list li {
+		max-width: 50%;
+	}
+}
 @media screen and (max-width: 620px) {
+	#post-list li {
+		max-width: 100%;
+	}
 	.entry-content {
 		p {
 			width: 100%;
