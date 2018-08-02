@@ -1,12 +1,13 @@
-Title: Wood gas vehicles: firewood in the fuel tank
-Date: 2010-01-18 01:20
-Author: ltmadmin
+Title: Wood Gas Vehicles: Firewood in the Fuel Tank
+Date: 2010-01-18
+Author: Kris De Decker
 Category: Obsolete Technology
 Tags: producer gas vehicles, wood gas, wood gas cars, wood gas vehicles
 Slug: wood-gas-cars
+Summary: During the Second World War, almost every motorised vehicle in continental Europe was converted to use firewood.
 Status: published
 
-
+![image](/images/dutch-john-woodgas-car.png)
 
 During the Second World War, almost every motorised vehicle in
 continental Europe was converted to use firewood. Wood gas cars (also
@@ -17,9 +18,7 @@ prices and global warming have caused renewed interest in this
 almost-forgotten technology: worldwide, dozens of handymen drive around
 in their home-made woodmobiles.
 
-
-
-gasification is a proces whereby organic material is converted into a
+Wood gasification is a proces whereby organic material is converted into a
 combustible gas under the influence of heat - the process reaches a
 temperature of 1,400 °C (2,550 °F). The first use of wood gasification
 dates back to 1870s, when it was used as a forerunner of natural gas for
@@ -32,14 +31,12 @@ The Imbert generator was mass produced from 1931 on. At the end of the
 1930s, about 9,000 wood gas vehicles were in use, almost exclusively in
 Europe.
 
-Second World War
+## Second World War
 
 The technology became commonplace in many European countries during the
 Second World War, as a consequence of the rationing of fossil fuels. In
 Germany alone, around 500,000 producer gas vehicles were in operation by
 the end of the war.
-
-
 
 A [network of some 3,000 "petrol stations" was set
 up](http://www.ianbyrne.free-online.co.uk/german30.htm#genkraft), where
@@ -49,7 +46,9 @@ with a wood gasification unit. Some tanks were driven on wood gas, too,
 but for military use the Germans preferred the production of liquid
 synthetic fuels (made out of wood or coal).
 
+![image](/images/wood-gas-car.jpg)
 
+![image](/images/woodgas-car2.jpg)
 
 In 1942 (when the technology had not yet reached the height of its
 popularity), there were about 73,000 producer gas vehicles in Sweden,
@@ -59,26 +58,23 @@ and almost 8,000 in Switzerland. Finland had 43,000 "woodmobiles" in
 4,000 tractors and 600 boats.
 ([source](http://www.ekoautoilijat.fi/tekstit/historiaa.htm)).
 
-
-
 Woodmobiles also appeared in the US, Asia and, particularly, Australia,
 which had 72,000 vehicles running on woodgas
 ([source](http://www.gasificationaustralia.com/index.php?option=com_content&task=view&id=15&Itemid=31)).
 Altogether, more than one million producer gas vehicles were used during
 World War Two.
 
+![image](/images/woodgas-vehicle.jpg)
 
+![image](/images/woodgas-vehicle-3.jpg)
 
 After the war, with gasoline once again available, the technology fell
 into oblivion almost instantaneously. At the beginning of the 1950s, the
 then West-Germany only had some 20,000 woodmobiles left.
 
+## Research programme in Sweden
 
-
-Research programme in Sweden
-
-
-fuel prices and global warming have resulted in renewed interest in
+Rising fuel prices and global warming have resulted in renewed interest in
 firewood as a direct fuel. Dozens of amateur engineers around the world
 have converted standard production cars into producer gas vehicles, with
 most of these modern woodmobiles being built in Scandinavia.
@@ -89,6 +85,8 @@ Sweden has no oil reserves, but it does have vast woodlands it can use
 for fuel. The goals of this research was to develop an improved,
 standardised installation that could be adapted for use in all kinds of
 vehicles.
+
+![image](/images/ruined-woodgas-car.jpg)
 
 This investigation, supported by car manufacturer Volvo, led to a great
 deal of theoretical knowledge and hands-on experience with several road
@@ -104,7 +102,7 @@ develop the technology
 ([overview](http://www.ekoautoilijat.fi/tekstit/kalustoesittely.htm),
 below a vehicle of Juha Sipilä).
 
-
+![image](/images/finnish-woodgas-car.jpg)
 
 A wood gas generator - which looks like a large water heater - can be
 placed on a trailer (although this makes the vehicle difficult to park),
@@ -114,16 +112,17 @@ luggage space), or on a platform at the front or the back of the vehicle
 the generator is placed in the truck bed. During WWII, some vehicles
 were equipped with a built-in generator, entirely hidden from view.
 
-Fuel
-
+## Fuel
 
 The fuel for a wood gas car consists of wood or wood chips (see picture
-on the left). Charcoal can also be used, but this leads to a 50 percent
+below). Charcoal can also be used, but this leads to a 50 percent
 loss in the available energy contained in the original biomass. On the
 other hand, charcoal contains more energy, so that the range of the car
 can be extended. In principle, any organic material can be used. During
 the Second World War, coal and peat were also used, but wood was the
 main fuel.
+
+![image](/images/firewood-in-fuel-tank.jpg)
 
 One of the more successful wood gas cars was built last year by [Dutch
 John](http://www.woodgas.nl/GB/index.html). While many recent producer
@@ -141,7 +140,7 @@ or [this Yugo](http://freeweb.deltha.hu/zastava.in.hu/wood-gas.htm)).
 wood gas is another thing. I have objections to some woodmobiles. Often,
 the produced gas is as clean as the appearance of the construction".
 
-
+![image](/images/volvo-drives-on-woodgas.jpg)
 
 Dutch John strongly believes in wood gas generators, mainly for
 stationary uses such as heating, electricity generation or even the
@@ -150,7 +149,7 @@ possibilities of the technology. "Park an Italian sports car next to a
 wood gas car and the crowd gathers around the woodmobile. Nevertheless,
 wood gas cars are only for idealists and for times of crisis."
 
-Range
+## Range
 
 The Volvo reaches a maximum speed of 120 kilometres per hour (75 mph)
 and can maintain a cruising speed of 110 km/h (68 mph). The "fuel tank"
@@ -158,16 +157,12 @@ can contain 30 kilograms (66 pounds) of wood, good for a range of 100
 kilometres (62 miles), [comparable to that of an electric
 car]({filename}/posts/the-status-quo-of-electric-cars-better-batteries-same-range.md).
 
-
-
 If the back seat is loaded with sacks of wood, the range is extended to
 400 kilometres (250 miles). Again, this is comparable to the range of an
 electric car if the passenger space is sacrificed for a larger battery,
 as is the case with the Tesla Roadster or the electric Mini Cooper. The
 difference is, of course, that John has to stop regularly to grab a sack
 of wood from the back seat and refill the tank.
-
-Trailer
 
 As is the case with other cars, the range of a wood gas car is also
 dependent on the vehicle itself. This is shown by the [different cars
@@ -182,7 +177,7 @@ This vehicle only consumes 20 kilograms (44 pounds) of wood over the
 same distance. However, the trailer is almost as large as the car
 itself.
 
-
+![image](/images/woodgas-on-trailer.jpg)
 
 The range of electric cars can be considerably improved by making them
 smaller and lighter. However, this is not an option with their wood gas
@@ -190,7 +185,7 @@ cousins because of the weight and the volume of the machinery. The
 smaller cars from World War Two only had a range of 20 to 50 kilometres
 (12 to 31 miles), in spite of their much lower speed and acceleration.
 
-Freedom
+## Freedom
 
 Enlarging the "fuel tank" is the only option to improve the range
 further (except for reducing one's speed, of course, but that is
@@ -214,7 +209,7 @@ generate electricity. His story has [caught
 on](http://www.21stcenturymotorworks.com/Press.html) in the US, and the
 reason can be summed up by his license plate: "Freedom".
 
-
+![image](/images/wooden-woodgas-car.jpg)
 
 "You can go around the world with a saw and an axe", as John Dutch puts
 it. His compatriot, [Joost Conijn](http://www.joostconijn.org/), grabbed
@@ -222,7 +217,7 @@ this opportunity to take a two-month trip throughout Europe, without
 worrying about the proximity of the closest of gas stations (which are
 not always easy to find in a country like Romania).
 
-
+![image](/images/wooden-woodgas-car-2.jpg)
 
 The locals gave him wood to continue his journey - with the supply
 stored on a trailer. Conijn not only used wood as a fuel, but also as a
@@ -231,7 +226,7 @@ construction material for the car itself (picture above - video
 For another trip with a wood gas car, see "[Around Sweden with wood in
 the tank](http://www.vedbil.se/indexe.shtml)".
 
-Does the woodmobile have a future?
+## Does the woodmobile have a future?
 
 During the 1990s, hydrogen was seen as the alternative fuel of the
 future. Then, biofuels and compressed air took over its mantle role,
@@ -246,11 +241,11 @@ Wood gasification is slightly more effiicient than wood burning, as only
 consumption of a woodmobile is around 1.5 times higher than the energy
 consumption of a similar car powered by gasoline (including the energy
 lost during the pre-heating of the system and the extra weight of the
-machinery). If the energy required to mine, transport and refine oil is
+machinery). 
+
+If the energy required to mine, transport and refine oil is
 also taken into account, however, then wood gas is at least as efficient
 as gasoline. And, of course, wood is a renewable fuel. Gasoline is not.
-
-The advantages of wood gas cars
 
 The greatest advantage of producer gas vehicles is that an accessible
 and renewable fuel can be used directly without any previous treatment.
@@ -262,7 +257,7 @@ refining the fuel, except for the felling and cutting of the wood. This
 means that a woodmobile is practically carbon neutral, especially when
 the felling and cutting is done by hand.
 
-
+![image](/images/volvo-woodgas.jpg)
 
 Moreover, a wood gas car does not require a chemical battery, and this
 is an important advantage over an electric car. All too often, the
@@ -275,11 +270,9 @@ A properly-operating wood gas generator also produces less air pollution
 than a gasoline or diesel powered car. Wood gasification is considerably
 cleaner than wood burning: emissions are comparable to those of burning
 natural gas. An electric car has the potential to do better, but then
-the energy it uses should be generated by renewable sources, which is
-[not a realistic
-scenario]({filename}/posts/renewable-energy-is-not-enough.md).
+the energy it uses should be generated by renewable sources, which remains to be seen.
 
-The drawbacks of wood gas cars
+## The drawbacks of wood gas cars
 
 In spite of all these advantages, it takes just one look at a woodmobile
 to realize that it is anything but an ideal solution. The mobile gas
@@ -290,7 +283,7 @@ around 5.7 MJ per kg, compared to 44 MJ/kg for gasoline and 56 MJ/kg for
 natural gas
 ([source](http://en.wikipedia.org/wiki/Wood_gas#cite_note-0)).
 
-
+![image](/images/woodgas-drawing.jpg)
 
 Furthermore, the use of wood gas limits the output of the combustion
 engine, which means that the speed and acceleration of the converted car
@@ -302,7 +295,7 @@ content, the engine receives less fuel, which leads to a 35 to 50
 percent lower output. Because the gas burns slowly, a high number of
 revolutions is not possible. A producer gas vehicle is no sports car.
 
-
+![image](/images/small-woodgas-car.jpg)
 
 Even though some smaller cars have been equipped with wood gas
 generators (see for instance this [Opel
@@ -319,14 +312,14 @@ is limited (a
 better, though). Of course, the weight and size of the mobile gas
 factory is less an issue with buses, trucks, trains or ships.
 
-Ease of use
+## Ease of use
 
 Another problem of wood gas cars is that they are not particularly
 user-friendly, although this has improved compared to the technology
 used in the Second World War. See the second part of [this pdf
 document](http://consuleng.com.au/Producer%20Gas%20&%20the%20Aussie%20Motorist%201939-45.pdf)
 (page 17 and further) for a description of what it was like to drive a
-wood gas car back then:
+wood gas car back then: "...experience at the Wurlitzer organ could be a distinct advantage".
 
 Still, in spite of the improvements, even a modern woodmobile requires
 up to 10 minutes to get up to working temperature, so you cannot jump in
@@ -337,7 +330,7 @@ years ago, but the filters still have to be cleaned regularly. And then
 there is the limited range of the vehicle. All in all, it is a far cry
 from the familiar ease of use of a gasoline car.
 
-
+![image](/images/flaring-a-woodgas-car.jpg)
 
 The large amount of (deadly) carbon monoxide produced calls for some
 precautions, too, since a leak in the piping is not impossible. If the
@@ -346,8 +339,7 @@ passenger compartment is by no means a luxury. Moreover, a wood gas car
 must not be parked in an enclosed space unless the gas is flared first
 (picture above).
 
-Mass-produced woodmobiles
-
+## Mass-produced woodmobiles
 
 Of course, all the vehicles described above are built by amateur
 engineers. If we built cars especially designed to be powered by wood,
@@ -363,16 +355,17 @@ War Two had the whole wood gasification mechanism built in (sources:
 outside, the wood gas generator and the rest of the installation was
 invisible. Refilling was done through a hole in the bonnet (hood).
 
+![image](/images/wood-powered-beetle-cars.jpg)
 
+![image](/images/woodgas-beetle.jpg)
 
 The same is true for this Mercedes-Benz, in which the installation is
 completely hidden in the trunk
 ([source](http://web.telia.com/%7Eu36403194/arkiv/gengas/gengas.htm#anvanda)).
 
+![image](/images/woodgas-car-trunk.jpg)
 
-
-Deforestation
-
+## Deforestation
 
 Unfortunately, wood gas shares an important disadvantage with other
 biofuels. Mass producing woodmobiles would not solve this. Quite the
@@ -394,7 +387,7 @@ to pick up some groceries. A bicycle would do the job faster. If you had
 to cut wood for three hours just to make a trip to the beach, you would
 probably decide to take the train.
 
-
+![image](/images/fuelling-a-woodgas-car.jpg)
 
 In any case, the woodmobile demonstrates (again) that the modern car is
 a product of fossil fuels. Whatever alternative fuel you believe in,
@@ -404,51 +397,3 @@ omnipresence of the automobile will be history. But the individual
 vehicle will never die.
 
 © [Kris De Decker](http://www.krisdedecker.org) (Thank you, R.O.)
-
-  ------------------------------------------------------------------------
-    
-   
-   
-   
-   
- ------------------------------------------------------------------------
-
-----------------------------------------------------------------------------------------------------------------------------------------------
-
-Related articles
-
--   [Gas bag
-    vehicles]({filename}/posts/gas-bag-vehicles.md):
-    an even more cumbersome alternative than wood gas cars
--   [Electric
-    velomobiles]({filename}/posts/electric-velomobiles.md):
-    as fast and comfortable as an automobile, but 80 times more
-    efficient
--   [The status quo of electric
-    cars]({filename}/posts/the-status-quo-of-electric-cars-better-batteries-same-range.md):
-    better batteries, same range
--   [The Citroen
-    2CV]({filename}/posts/citroen-2cv.md):
-    cleantech from the 1940s
-
-<!-- -->
-
--   [Well-tended fires outperform modern cooking
-    stoves]({filename}/posts/thermal-efficiency-cooking-stoves.md)
--   [Medieval
-    smokestacks]({filename}/posts/peat-and-coal-fossil-fuels-in-pre-industrial-times.md):
-    fossil fuels in pre-industrial times
--   [Sunbathing in the living
-    room]({filename}/posts/tile-stoves.md): oven
-    stoves
--   [How to downsize a transport
-    network]({filename}/posts/the-chinese-wheelbarrow.md):
-    the Chinese wheelbarrow
-
-[Main page](http://www.lowtechmagazine.com/).
-
-
-
-[Source picture
-above](http://www.passionautomobile.com/retromobile/aventure-peugeot-retromobile-2009.html).
-

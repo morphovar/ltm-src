@@ -4,9 +4,8 @@ Author: Kris De Decker
 Category: Low-tech Solutions
 Tags: agriculture, animal power, draft horses, farming, horses, horses in agriculture, tractors
 Slug: horses-agricult
-Summary: Replacing tractors with real horse power could be the revolution that
-agriculture needs.
-Status: published
+Summary: Replacing tractors with real horse power could be the revolution that agriculture needs.
+Status: Published
 
 ![image](/images/horse.jpg)
 Replacing tractors with real horse power could be the revolution that
