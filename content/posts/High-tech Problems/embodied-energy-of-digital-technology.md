@@ -5,7 +5,8 @@ Category: High-tech Problems
 Tags: microchips
 Slug: embodied-energy-of-digital-technology
 Status: published
-Summary: FIXME
+Summary: The embodied energy of the memory chip alone exceeds the energy
+consumption of a laptop during its life expectancy of 3 years.
 
 ![image](/images/monster-footprint-digital-technology.jpg)
 Artwork: [cityscape I & II by Grace Grothaus](http://gracegrothaus.com/).
