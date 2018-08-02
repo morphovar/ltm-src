@@ -58,9 +58,13 @@ BACKGROUND
 }
 #info {
 	position: fixed;
-	bottom: 0;
-	right: 0;
-	z-index: 20;
+  bottom: -1rem;
+  right: 0;
+  z-index: 20;
+  color: $color_2;
+	font-size: $size_s;
+  transform: rotate(90deg);
+  transform-origin: right top;
 }
 main {
 	position: absolute;
@@ -386,8 +390,8 @@ footer#content-info {
 }
 footer.post-info {
 	overflow: auto;
-	margin: 1rem 0;
-	padding-top: $pad;
+	margin: 2*$pad 0;
+	padding-top: 0.5*$pad;
 	font-size: $size_s;
 	border-top: 1px solid $color;
 	p.tags {
